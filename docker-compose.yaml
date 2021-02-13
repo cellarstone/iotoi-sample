@@ -1,0 +1,31 @@
+version: "3"
+
+services:
+  opcuadiscovery:
+    hostname: opcuadiscovery
+    image: danhruby/opcua-discovery-server:latest
+    networks:
+      - nifi
+    command: node /usr/src/app/packages/node-opcua-local-discovery-server/bin/local-discovery-server.js
+
+  opcuaserver:
+    hostname: opcuaserver
+    image: danhruby/opcua-server:latest
+    networks:
+      - nifi
+    ports:
+      - "4840:4840"
+      - "26543:26543"
+
+  #URL: opcua:tcp://opcuaserver:26543
+  # String simulation: val:=ns=3;s=Scalar_Simulation_String
+  nifi:
+    hostname: nifi
+    image: richardfelkl/nifi-plc4x:latest
+    networks:
+      - nifi
+    ports:
+      - "8080:8080"  
+
+networks:
+  nifi:
