@@ -1,0 +1,13 @@
+version: "3.7"
+
+services:
+  iotoi-minio:
+    image: bitnami/minio:latest
+    volumes:
+      - ./container-data:/data
+    ports:
+      - "9000:9000"
+    environment:
+      - MINIO_ACCESS_KEY=minio-access-key
+      - MINIO_SECRET_KEY=minio-secret-key
+      - MINIO_DEFAULT_BUCKETS=my-first-bucket,my-second-bucket

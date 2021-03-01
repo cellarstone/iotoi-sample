@@ -1,0 +1,14 @@
+version: "3.7"
+
+services:
+  iotoi-clickhouse:
+    image: yandex/clickhouse-server
+    volumes:
+      - ./container-data:/var/lib/clickhouse
+    ports:
+      - "8123:8123"
+      - "9000:9000"
+    ulimits:
+      nofile:
+        soft: 262144
+        hard: 262144

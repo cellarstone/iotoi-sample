@@ -1,0 +1,56 @@
+version: "3.7"
+
+services:
+  iotoi-nifi:
+    image: richardfelkl/nifi-plc4x:latest
+    volumes:
+      - ./container-data/nifi_lib/postgresql-42.2.18.jar:/opt/nifi/nifi-current/lib/postgresql-42.2.18.jar
+    #      - ./container-data/nifi_conf/archive:/opt/nifi/nifi-current/conf/archive
+    #      - ./container-data/nifi_conf/flow.xml.gz:/opt/nifi/nifi-current/conf/flow.xml.gz
+    #      - ./bootstrap.conf:/opt/nifi/nifi-current/conf/bootstrap.conf
+    #      - ./container-data/nifi_state:/opt/nifi/nifi-current/state
+    #      - ./container-data/nifi_db:/opt/nifi/nifi-current/database_repository
+    #      - ./container-data/nifi_flowfile:/opt/nifi/nifi-current/flowfile_repository
+    #      - ./container-data/nifi_content:/opt/nifi/nifi-current/content_repository
+    #      - ./container-data/nifi_provenance:/opt/nifi/nifi-current/provenance_repository
+    ports:
+      - "8080:8080"
+    networks:
+      - nifi
+
+  iotoi-nifi-registry:
+    container_name: nifi-registry
+    image: apache/nifi-registry:latest
+    ports:
+      - target: 18080
+        published: 18080
+        protocol: tcp
+        mode: host
+    networks:
+      - nifi
+    environment:
+      - NIFI_REGISTRY_WEB_HTTP_HOST=0.0.0.0
+      - JVM_OPTS=-Xmx512m -Xms512m -XX:MaxPermSize=1g
+    volumes:
+      #      - ./container-data/registry/providers.xml:/opt/nifi-registry/nifi-registry-current/conf/providers.xml
+      - ./container-data/registry/flow-storage:/opt/nifi-registry/nifi-registry-current/flow_storage
+      - ./container-data/registry/database:/opt/nifi-registry/nifi-registry-current/database
+
+  opcuadiscovery:
+    hostname: opcuadiscovery
+    image: danhruby/opcua-discovery-server:latest
+    networks:
+      - nifi
+    command: node /usr/src/app/packages/node-opcua-local-discovery-server/bin/local-discovery-server.js
+
+  opcuaserver:
+    hostname: opcuaserver
+    image: danhruby/opcua-server:latest
+    networks:
+      - nifi
+    ports:
+      - "4840:4840"
+      - "26543:26543"
+
+networks:
+  nifi:
