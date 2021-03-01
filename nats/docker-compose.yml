@@ -1,0 +1,13 @@
+version: "3.7"
+
+services:
+  iotoi-nats:
+    image: nats:latest
+    ports:
+      - "4222:4222"
+      - "8222:8222"
+      - "6222:6222"
+  iotioi-nats-ui:
+    image: sphqxe/nats-webui:latest
+    ports:
+      - "4223:80"

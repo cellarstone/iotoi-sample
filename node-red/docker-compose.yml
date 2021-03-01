@@ -1,0 +1,38 @@
+###############################################################################
+# Node-RED Stack or Compose
+################################################################################
+# docker stack deploy node-red --compose-file docker-compose-node-red.yml
+# docker-compose -f docker-compose-node-red.yml -p myNoderedProject up
+################################################################################
+version: "3.7"
+
+services:
+  node-red:
+    image: nodered/node-red:latest
+    environment:
+      - TZ=Europe/Amsterdam
+    ports:
+      - "1880:1880"
+    networks:
+      - node-red-net
+    volumes:
+      - ./container-data:/data
+
+  opcuadiscovery:
+    hostname: opcuadiscovery
+    image: danhruby/opcua-discovery-server:latest
+    networks:
+      - node-red-net
+    command: node /usr/src/app/packages/node-opcua-local-discovery-server/bin/local-discovery-server.js
+
+  opcuaserver:
+    hostname: opcuaserver
+    image: danhruby/opcua-server:latest
+    networks:
+      - node-red-net
+    ports:
+      - "4840:4840"
+      - "26543:26543"
+
+networks:
+  node-red-net:
