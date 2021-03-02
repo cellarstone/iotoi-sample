@@ -2,9 +2,9 @@
 # Run SQL
 
 ```sql
-create DATABASE test
+CREATE DATABASE test
 
- CREATE TABLE test.testtable
+CREATE TABLE test.testtable
 (
     `id` Int32,
     `name` String,
