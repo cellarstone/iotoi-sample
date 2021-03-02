@@ -1,0 +1,3 @@
+./clickhouse/container-data/*
+./postgres/container-data/*
+./minio/container-data/*

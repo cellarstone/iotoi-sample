@@ -1,0 +1,192 @@
+{
+  "header" : {
+    "dataModelVersion" : "3"
+  },
+  "content" : {
+    "flowSnapshot" : {
+      "externalControllerServices" : { },
+      "flowContents" : {
+        "comments" : "",
+        "componentType" : "PROCESS_GROUP",
+        "connections" : [ {
+          "backPressureDataSizeThreshold" : "1 GB",
+          "backPressureObjectThreshold" : 10000,
+          "bends" : [ {
+            "x" : 2325.6030384635587,
+            "y" : 686.0703585603555
+          } ],
+          "componentType" : "CONNECTION",
+          "destination" : {
+            "comments" : "",
+            "groupId" : "0d3e0d18-9c7c-3ed6-9cba-dfe8f2969413",
+            "id" : "eeb7a399-b600-341c-aaec-54508b3d0a9c",
+            "name" : "LogMessage",
+            "type" : "PROCESSOR"
+          },
+          "flowFileExpiration" : "0 sec",
+          "groupIdentifier" : "0d3e0d18-9c7c-3ed6-9cba-dfe8f2969413",
+          "identifier" : "ba51c143-4c08-3499-8580-ad6c611ae293",
+          "labelIndex" : 1,
+          "loadBalanceCompression" : "DO_NOT_COMPRESS",
+          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+          "name" : "",
+          "partitioningAttribute" : "",
+          "prioritizers" : [ ],
+          "selectedRelationships" : [ "FAILURE" ],
+          "source" : {
+            "comments" : "",
+            "groupId" : "0d3e0d18-9c7c-3ed6-9cba-dfe8f2969413",
+            "id" : "aea92acd-0881-3a8b-94b1-38d9fb9bfb28",
+            "name" : "Plc4xSourceProcessor",
+            "type" : "PROCESSOR"
+          },
+          "zIndex" : 0
+        }, {
+          "backPressureDataSizeThreshold" : "1 GB",
+          "backPressureObjectThreshold" : 10000,
+          "bends" : [ ],
+          "componentType" : "CONNECTION",
+          "destination" : {
+            "comments" : "",
+            "groupId" : "0d3e0d18-9c7c-3ed6-9cba-dfe8f2969413",
+            "id" : "eeb7a399-b600-341c-aaec-54508b3d0a9c",
+            "name" : "LogMessage",
+            "type" : "PROCESSOR"
+          },
+          "flowFileExpiration" : "0 sec",
+          "groupIdentifier" : "0d3e0d18-9c7c-3ed6-9cba-dfe8f2969413",
+          "identifier" : "7047f11e-4c2c-3b82-8171-fc5a1d04efad",
+          "labelIndex" : 1,
+          "loadBalanceCompression" : "DO_NOT_COMPRESS",
+          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+          "name" : "",
+          "partitioningAttribute" : "",
+          "prioritizers" : [ ],
+          "selectedRelationships" : [ "SUCCESS" ],
+          "source" : {
+            "comments" : "",
+            "groupId" : "0d3e0d18-9c7c-3ed6-9cba-dfe8f2969413",
+            "id" : "aea92acd-0881-3a8b-94b1-38d9fb9bfb28",
+            "name" : "Plc4xSourceProcessor",
+            "type" : "PROCESSOR"
+          },
+          "zIndex" : 0
+        } ],
+        "controllerServices" : [ ],
+        "flowFileConcurrency" : "UNBOUNDED",
+        "flowFileOutboundPolicy" : "STREAM_WHEN_AVAILABLE",
+        "funnels" : [ ],
+        "identifier" : "0d3e0d18-9c7c-3ed6-9cba-dfe8f2969413",
+        "inputPorts" : [ ],
+        "labels" : [ ],
+        "name" : "Test-ReadFromOPCUA-Kepserver",
+        "outputPorts" : [ ],
+        "position" : {
+          "x" : 2040.0,
+          "y" : 416.0
+        },
+        "processGroups" : [ ],
+        "processors" : [ {
+          "autoTerminatedRelationships" : [ ],
+          "bulletinLevel" : "WARN",
+          "bundle" : {
+            "artifact" : "plc4j-nifi-plc4x-nar",
+            "group" : "org.apache.plc4x",
+            "version" : "0.8.0"
+          },
+          "comments" : "",
+          "componentType" : "PROCESSOR",
+          "concurrentlySchedulableTaskCount" : 1,
+          "executionNode" : "ALL",
+          "groupIdentifier" : "0d3e0d18-9c7c-3ed6-9cba-dfe8f2969413",
+          "identifier" : "aea92acd-0881-3a8b-94b1-38d9fb9bfb28",
+          "name" : "Plc4xSourceProcessor",
+          "penaltyDuration" : "30 sec",
+          "position" : {
+            "x" : 2384.0,
+            "y" : 408.0
+          },
+          "properties" : {
+            "PLC_ADDRESS_STRING" : "value:=ns=2;s=Channel1.Device1.Tag1",
+            "PLC_CONNECTION_STRING" : "opcua:tcp://192.168.0.39:49320"
+          },
+          "propertyDescriptors" : {
+            "PLC_ADDRESS_STRING" : {
+              "displayName" : "PLC resource address String",
+              "identifiesControllerService" : false,
+              "name" : "PLC_ADDRESS_STRING",
+              "sensitive" : false
+            },
+            "PLC_CONNECTION_STRING" : {
+              "displayName" : "PLC connection String",
+              "identifiesControllerService" : false,
+              "name" : "PLC_CONNECTION_STRING",
+              "sensitive" : false
+            }
+          },
+          "runDurationMillis" : 0,
+          "scheduledState" : "ENABLED",
+          "schedulingPeriod" : "1 sec",
+          "schedulingStrategy" : "TIMER_DRIVEN",
+          "style" : { },
+          "type" : "org.apache.plc4x.nifi.Plc4xSourceProcessor",
+          "yieldDuration" : "1 sec"
+        }, {
+          "autoTerminatedRelationships" : [ ],
+          "bulletinLevel" : "WARN",
+          "bundle" : {
+            "artifact" : "nifi-standard-nar",
+            "group" : "org.apache.nifi",
+            "version" : "1.12.1"
+          },
+          "comments" : "",
+          "componentType" : "PROCESSOR",
+          "concurrentlySchedulableTaskCount" : 1,
+          "executionNode" : "ALL",
+          "groupIdentifier" : "0d3e0d18-9c7c-3ed6-9cba-dfe8f2969413",
+          "identifier" : "eeb7a399-b600-341c-aaec-54508b3d0a9c",
+          "name" : "LogMessage",
+          "penaltyDuration" : "30 sec",
+          "position" : {
+            "x" : 2407.2896655548006,
+            "y" : 778.5442609888769
+          },
+          "properties" : {
+            "log-level" : "info"
+          },
+          "propertyDescriptors" : {
+            "log-message" : {
+              "displayName" : "Log message",
+              "identifiesControllerService" : false,
+              "name" : "log-message",
+              "sensitive" : false
+            },
+            "log-level" : {
+              "displayName" : "Log Level",
+              "identifiesControllerService" : false,
+              "name" : "log-level",
+              "sensitive" : false
+            },
+            "log-prefix" : {
+              "displayName" : "Log prefix",
+              "identifiesControllerService" : false,
+              "name" : "log-prefix",
+              "sensitive" : false
+            }
+          },
+          "runDurationMillis" : 0,
+          "scheduledState" : "ENABLED",
+          "schedulingPeriod" : "0 sec",
+          "schedulingStrategy" : "TIMER_DRIVEN",
+          "style" : { },
+          "type" : "org.apache.nifi.processors.standard.LogMessage",
+          "yieldDuration" : "1 sec"
+        } ],
+        "remoteProcessGroups" : [ ],
+        "variables" : { }
+      },
+      "flowEncodingVersion" : "1.0",
+      "parameterContexts" : { }
+    }
+  }
+}
