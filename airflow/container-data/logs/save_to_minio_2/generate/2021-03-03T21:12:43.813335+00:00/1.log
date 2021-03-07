@@ -1,0 +1,21 @@
+[2021-03-03 21:12:44,421] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: save_to_minio_2.generate 2021-03-03T21:12:43.813335+00:00 [queued]>
+[2021-03-03 21:12:44,433] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: save_to_minio_2.generate 2021-03-03T21:12:43.813335+00:00 [queued]>
+[2021-03-03 21:12:44,433] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-03 21:12:44,433] {taskinstance.py:1043} INFO - Starting attempt 1 of 1
+[2021-03-03 21:12:44,433] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-03 21:12:44,439] {taskinstance.py:1063} INFO - Executing <Task(_PythonDecoratedOperator): generate> on 2021-03-03T21:12:43.813335+00:00
+[2021-03-03 21:12:44,442] {standard_task_runner.py:52} INFO - Started process 47 to run task
+[2021-03-03 21:12:44,445] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'save_to_minio_2', 'generate', '2021-03-03T21:12:43.813335+00:00', '--job-id', '48', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/save_to_mino_2/main.py', '--cfg-path', '/tmp/tmpocxi1czc', '--error-file', '/tmp/tmp3h1lwkh_']
+[2021-03-03 21:12:44,446] {standard_task_runner.py:77} INFO - Job 48: Subtask generate
+[2021-03-03 21:12:44,472] {logging_mixin.py:104} INFO - Running <TaskInstance: save_to_minio_2.generate 2021-03-03T21:12:43.813335+00:00 [running]> on host 4c61e128b408
+[2021-03-03 21:12:44,496] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=iotoi
+AIRFLOW_CTX_DAG_ID=save_to_minio_2
+AIRFLOW_CTX_TASK_ID=generate
+AIRFLOW_CTX_EXECUTION_DATE=2021-03-03T21:12:43.813335+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-03-03T21:12:43.813335+00:00
+[2021-03-03 21:12:44,511] {taskinstance.py:1166} INFO - Marking task as SUCCESS. dag_id=save_to_minio_2, task_id=generate, execution_date=20210303T211243, start_date=20210303T211244, end_date=20210303T211244
+[2021-03-03 21:12:44,527] {taskinstance.py:1220} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2021-03-03 21:12:44,538] {local_task_job.py:146} INFO - Task exited with return code 0

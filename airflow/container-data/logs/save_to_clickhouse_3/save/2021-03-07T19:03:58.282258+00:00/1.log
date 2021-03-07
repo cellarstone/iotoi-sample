@@ -1,0 +1,22 @@
+[2021-03-07 19:03:59,270] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: save_to_clickhouse_3.save 2021-03-07T19:03:58.282258+00:00 [queued]>
+[2021-03-07 19:03:59,279] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: save_to_clickhouse_3.save 2021-03-07T19:03:58.282258+00:00 [queued]>
+[2021-03-07 19:03:59,279] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-07 19:03:59,279] {taskinstance.py:1043} INFO - Starting attempt 1 of 1
+[2021-03-07 19:03:59,279] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-07 19:03:59,285] {taskinstance.py:1063} INFO - Executing <Task(_PythonDecoratedOperator): save> on 2021-03-07T19:03:58.282258+00:00
+[2021-03-07 19:03:59,288] {standard_task_runner.py:52} INFO - Started process 47 to run task
+[2021-03-07 19:03:59,290] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'save_to_clickhouse_3', 'save', '2021-03-07T19:03:58.282258+00:00', '--job-id', '138', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/save_to_clickhouse_3/main.py', '--cfg-path', '/tmp/tmpf4mxscgo', '--error-file', '/tmp/tmpbtchprny']
+[2021-03-07 19:03:59,291] {standard_task_runner.py:77} INFO - Job 138: Subtask save
+[2021-03-07 19:03:59,315] {logging_mixin.py:104} INFO - Running <TaskInstance: save_to_clickhouse_3.save 2021-03-07T19:03:58.282258+00:00 [running]> on host 020f66ce59e6
+[2021-03-07 19:03:59,341] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=iotoi
+AIRFLOW_CTX_DAG_ID=save_to_clickhouse_3
+AIRFLOW_CTX_TASK_ID=save
+AIRFLOW_CTX_EXECUTION_DATE=2021-03-07T19:03:58.282258+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-03-07T19:03:58.282258+00:00
+[2021-03-07 19:03:59,460] {logging_mixin.py:104} INFO - [(datetime.datetime(2021, 3, 7, 19, 3, 59), '21.2.4.6')]
+[2021-03-07 19:03:59,469] {taskinstance.py:1166} INFO - Marking task as SUCCESS. dag_id=save_to_clickhouse_3, task_id=save, execution_date=20210307T190358, start_date=20210307T190359, end_date=20210307T190359
+[2021-03-07 19:03:59,489] {taskinstance.py:1220} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-03-07 19:03:59,503] {local_task_job.py:146} INFO - Task exited with return code 0

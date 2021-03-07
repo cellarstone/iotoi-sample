@@ -1,0 +1,131 @@
+[2021-03-03 22:19:12,324] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: save_to_minio_2.write_text_file 2021-03-03T22:19:11.297672+00:00 [queued]>
+[2021-03-03 22:19:12,335] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: save_to_minio_2.write_text_file 2021-03-03T22:19:11.297672+00:00 [queued]>
+[2021-03-03 22:19:12,335] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-03 22:19:12,335] {taskinstance.py:1043} INFO - Starting attempt 1 of 1
+[2021-03-03 22:19:12,335] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-03 22:19:12,347] {taskinstance.py:1063} INFO - Executing <Task(_PythonDecoratedOperator): write_text_file> on 2021-03-03T22:19:11.297672+00:00
+[2021-03-03 22:19:12,351] {standard_task_runner.py:52} INFO - Started process 51 to run task
+[2021-03-03 22:19:12,354] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'save_to_minio_2', 'write_text_file', '2021-03-03T22:19:11.297672+00:00', '--job-id', '70', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/save_to_minio_2/main.py', '--cfg-path', '/tmp/tmpyufgwwy5', '--error-file', '/tmp/tmpvw6r4l2w']
+[2021-03-03 22:19:12,354] {standard_task_runner.py:77} INFO - Job 70: Subtask write_text_file
+[2021-03-03 22:19:12,388] {logging_mixin.py:104} INFO - Running <TaskInstance: save_to_minio_2.write_text_file 2021-03-03T22:19:11.297672+00:00 [running]> on host b5d0ebb2b610
+[2021-03-03 22:19:12,431] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=iotoi
+AIRFLOW_CTX_DAG_ID=save_to_minio_2
+AIRFLOW_CTX_TASK_ID=write_text_file
+AIRFLOW_CTX_EXECUTION_DATE=2021-03-03T22:19:11.297672+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-03-03T22:19:11.297672+00:00
+[2021-03-03 22:19:12,432] {base_aws.py:362} INFO - Airflow Connection: aws_conn_id=local_minio
+[2021-03-03 22:19:12,438] {base_aws.py:164} INFO - Credentials retrieved from extra_config
+[2021-03-03 22:19:12,438] {base_aws.py:81} INFO - Creating session with aws_access_key_id=minio-access-key region_name=None
+[2021-03-03 22:19:12,453] {base_aws.py:151} INFO - role_arn is None
+[2021-03-03 22:19:18,379] {taskinstance.py:1455} ERROR - Could not connect to the endpoint URL: "http://192.168.0.9:9000/my-first-bucket/my-test-file.txt-149c65c8-4cfc-43ec-871d-475b13ae3960"
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/urllib3/connection.py", line 160, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/home/airflow/.local/lib/python3.6/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/home/airflow/.local/lib/python3.6/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/botocore/httpsession.py", line 263, in send
+    chunked=self._chunked(request.headers),
+  File "/home/airflow/.local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 727, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/home/airflow/.local/lib/python3.6/site-packages/urllib3/util/retry.py", line 386, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/airflow/.local/lib/python3.6/site-packages/urllib3/packages/six.py", line 735, in reraise
+    raise value
+  File "/home/airflow/.local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 677, in urlopen
+    chunked=chunked,
+  File "/home/airflow/.local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/local/lib/python3.6/http/client.py", line 1287, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/home/airflow/.local/lib/python3.6/site-packages/botocore/awsrequest.py", line 92, in _send_request
+    method, url, body, headers, *args, **kwargs)
+  File "/usr/local/lib/python3.6/http/client.py", line 1333, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.6/http/client.py", line 1282, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/home/airflow/.local/lib/python3.6/site-packages/botocore/awsrequest.py", line 119, in _send_output
+    self.send(msg)
+  File "/home/airflow/.local/lib/python3.6/site-packages/botocore/awsrequest.py", line 203, in send
+    return super(AWSConnection, self).send(str)
+  File "/usr/local/lib/python3.6/http/client.py", line 980, in send
+    self.connect()
+  File "/home/airflow/.local/lib/python3.6/site-packages/urllib3/connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "/home/airflow/.local/lib/python3.6/site-packages/urllib3/connection.py", line 172, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <botocore.awsrequest.AWSHTTPConnection object at 0x7efcb477aa90>: Failed to establish a new connection: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1112, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1285, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1315, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 233, in execute
+    return_value = self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/save_to_minio_2/main.py", line 49, in write_text_file
+    bucket_name="my-first-bucket",
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/providers/amazon/aws/hooks/s3.py", line 61, in wrapper
+    return func(*bound_args.args, **bound_args.kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/providers/amazon/aws/hooks/s3.py", line 90, in wrapper
+    return func(*bound_args.args, **bound_args.kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/providers/amazon/aws/hooks/s3.py", line 489, in load_file
+    if not replace and self.check_for_key(key, bucket_name):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/providers/amazon/aws/hooks/s3.py", line 61, in wrapper
+    return func(*bound_args.args, **bound_args.kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/providers/amazon/aws/hooks/s3.py", line 90, in wrapper
+    return func(*bound_args.args, **bound_args.kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/providers/amazon/aws/hooks/s3.py", line 314, in check_for_key
+    self.get_conn().head_object(Bucket=bucket_name, Key=key)
+  File "/home/airflow/.local/lib/python3.6/site-packages/botocore/client.py", line 357, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/botocore/client.py", line 663, in _make_api_call
+    operation_model, request_dict, request_context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/botocore/client.py", line 682, in _make_request
+    return self._endpoint.make_request(operation_model, request_dict)
+  File "/home/airflow/.local/lib/python3.6/site-packages/botocore/endpoint.py", line 102, in make_request
+    return self._send_request(request_dict, operation_model)
+  File "/home/airflow/.local/lib/python3.6/site-packages/botocore/endpoint.py", line 137, in _send_request
+    success_response, exception):
+  File "/home/airflow/.local/lib/python3.6/site-packages/botocore/endpoint.py", line 256, in _needs_retry
+    caught_exception=caught_exception, request_dict=request_dict)
+  File "/home/airflow/.local/lib/python3.6/site-packages/botocore/hooks.py", line 356, in emit
+    return self._emitter.emit(aliased_event_name, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/botocore/hooks.py", line 228, in emit
+    return self._emit(event_name, kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/botocore/hooks.py", line 211, in _emit
+    response = handler(**kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/botocore/retryhandler.py", line 183, in __call__
+    if self._checker(attempts, response, caught_exception):
+  File "/home/airflow/.local/lib/python3.6/site-packages/botocore/retryhandler.py", line 251, in __call__
+    caught_exception)
+  File "/home/airflow/.local/lib/python3.6/site-packages/botocore/retryhandler.py", line 277, in _should_retry
+    return self._checker(attempt_number, response, caught_exception)
+  File "/home/airflow/.local/lib/python3.6/site-packages/botocore/retryhandler.py", line 317, in __call__
+    caught_exception)
+  File "/home/airflow/.local/lib/python3.6/site-packages/botocore/retryhandler.py", line 223, in __call__
+    attempt_number, caught_exception)
+  File "/home/airflow/.local/lib/python3.6/site-packages/botocore/retryhandler.py", line 359, in _check_caught_exception
+    raise caught_exception
+  File "/home/airflow/.local/lib/python3.6/site-packages/botocore/endpoint.py", line 200, in _do_get_response
+    http_response = self._send(request)
+  File "/home/airflow/.local/lib/python3.6/site-packages/botocore/endpoint.py", line 269, in _send
+    return self.http_session.send(request)
+  File "/home/airflow/.local/lib/python3.6/site-packages/botocore/httpsession.py", line 283, in send
+    raise EndpointConnectionError(endpoint_url=request.url, error=e)
+botocore.exceptions.EndpointConnectionError: Could not connect to the endpoint URL: "http://192.168.0.9:9000/my-first-bucket/my-test-file.txt-149c65c8-4cfc-43ec-871d-475b13ae3960"
+[2021-03-03 22:19:18,390] {taskinstance.py:1503} INFO - Marking task as FAILED. dag_id=save_to_minio_2, task_id=write_text_file, execution_date=20210303T221911, start_date=20210303T221912, end_date=20210303T221918
+[2021-03-03 22:19:18,432] {local_task_job.py:146} INFO - Task exited with return code 1

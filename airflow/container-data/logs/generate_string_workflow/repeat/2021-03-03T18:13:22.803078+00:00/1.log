@@ -1,0 +1,21 @@
+[2021-03-03 18:13:25,082] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: generate_string_workflow.repeat 2021-03-03T18:13:22.803078+00:00 [queued]>
+[2021-03-03 18:13:25,088] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: generate_string_workflow.repeat 2021-03-03T18:13:22.803078+00:00 [queued]>
+[2021-03-03 18:13:25,088] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-03 18:13:25,088] {taskinstance.py:1043} INFO - Starting attempt 1 of 1
+[2021-03-03 18:13:25,088] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-03 18:13:25,097] {taskinstance.py:1063} INFO - Executing <Task(_PythonDecoratedOperator): repeat> on 2021-03-03T18:13:22.803078+00:00
+[2021-03-03 18:13:25,100] {standard_task_runner.py:52} INFO - Started process 49 to run task
+[2021-03-03 18:13:25,102] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'generate_string_workflow', 'repeat', '2021-03-03T18:13:22.803078+00:00', '--job-id', '15', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/custom-dag-1.py', '--cfg-path', '/tmp/tmp29ng1i87', '--error-file', '/tmp/tmpjnem_nhc']
+[2021-03-03 18:13:25,102] {standard_task_runner.py:77} INFO - Job 15: Subtask repeat
+[2021-03-03 18:13:25,125] {logging_mixin.py:104} INFO - Running <TaskInstance: generate_string_workflow.repeat 2021-03-03T18:13:22.803078+00:00 [running]> on host 02b058bbf526
+[2021-03-03 18:13:25,152] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=iotoi
+AIRFLOW_CTX_DAG_ID=generate_string_workflow
+AIRFLOW_CTX_TASK_ID=repeat
+AIRFLOW_CTX_EXECUTION_DATE=2021-03-03T18:13:22.803078+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-03-03T18:13:22.803078+00:00
+[2021-03-03 18:13:25,166] {taskinstance.py:1166} INFO - Marking task as SUCCESS. dag_id=generate_string_workflow, task_id=repeat, execution_date=20210303T181322, start_date=20210303T181325, end_date=20210303T181325
+[2021-03-03 18:13:25,184] {taskinstance.py:1220} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-03-03 18:13:25,194] {local_task_job.py:146} INFO - Task exited with return code 0

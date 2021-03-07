@@ -1,0 +1,32 @@
+[2021-03-07 17:33:33,785] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: check_minio_2.check_s3_for_file_in_s3 2021-03-07T17:33:33.026528+00:00 [queued]>
+[2021-03-07 17:33:33,800] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: check_minio_2.check_s3_for_file_in_s3 2021-03-07T17:33:33.026528+00:00 [queued]>
+[2021-03-07 17:33:33,800] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-07 17:33:33,800] {taskinstance.py:1043} INFO - Starting attempt 1 of 1
+[2021-03-07 17:33:33,800] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-07 17:33:33,806] {taskinstance.py:1063} INFO - Executing <Task(S3KeySensor): check_s3_for_file_in_s3> on 2021-03-07T17:33:33.026528+00:00
+[2021-03-07 17:33:33,811] {standard_task_runner.py:52} INFO - Started process 46 to run task
+[2021-03-07 17:33:33,814] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'check_minio_2', 'check_s3_for_file_in_s3', '2021-03-07T17:33:33.026528+00:00', '--job-id', '119', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/check_minio_2/main.py', '--cfg-path', '/tmp/tmpc4rbny0d', '--error-file', '/tmp/tmpn4nockz3']
+[2021-03-07 17:33:33,814] {standard_task_runner.py:77} INFO - Job 119: Subtask check_s3_for_file_in_s3
+[2021-03-07 17:33:33,844] {logging_mixin.py:104} INFO - Running <TaskInstance: check_minio_2.check_s3_for_file_in_s3 2021-03-07T17:33:33.026528+00:00 [running]> on host ded171213b30
+[2021-03-07 17:33:33,878] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=iotoi
+AIRFLOW_CTX_DAG_ID=check_minio_2
+AIRFLOW_CTX_TASK_ID=check_s3_for_file_in_s3
+AIRFLOW_CTX_EXECUTION_DATE=2021-03-07T17:33:33.026528+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-03-07T17:33:33.026528+00:00
+[2021-03-07 17:33:33,878] {s3_key.py:98} INFO - Poking for key : s3://my-first-bucket/my-test-file-2.txt-*
+[2021-03-07 17:33:33,879] {base_aws.py:362} INFO - Airflow Connection: aws_conn_id=local_minio
+[2021-03-07 17:33:33,885] {base_aws.py:164} INFO - Credentials retrieved from extra_config
+[2021-03-07 17:33:33,885] {base_aws.py:81} INFO - Creating session with aws_access_key_id=minio-access-key region_name=None
+[2021-03-07 17:33:33,900] {base_aws.py:151} INFO - role_arn is None
+[2021-03-07 17:34:34,025] {s3_key.py:98} INFO - Poking for key : s3://my-first-bucket/my-test-file-2.txt-*
+[2021-03-07 17:34:34,033] {base_aws.py:362} INFO - Airflow Connection: aws_conn_id=local_minio
+[2021-03-07 17:34:34,037] {base_aws.py:164} INFO - Credentials retrieved from extra_config
+[2021-03-07 17:34:34,038] {base_aws.py:81} INFO - Creating session with aws_access_key_id=minio-access-key region_name=None
+[2021-03-07 17:34:34,049] {base_aws.py:151} INFO - role_arn is None
+[2021-03-07 17:34:34,118] {base.py:245} INFO - Success criteria met. Exiting.
+[2021-03-07 17:34:34,124] {taskinstance.py:1166} INFO - Marking task as SUCCESS. dag_id=check_minio_2, task_id=check_s3_for_file_in_s3, execution_date=20210307T173333, start_date=20210307T173333, end_date=20210307T173434
+[2021-03-07 17:34:34,144] {taskinstance.py:1220} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-03-07 17:34:34,172] {local_task_job.py:146} INFO - Task exited with return code 0

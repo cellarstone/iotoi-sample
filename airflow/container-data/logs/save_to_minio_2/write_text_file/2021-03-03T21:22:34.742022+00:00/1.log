@@ -1,0 +1,25 @@
+[2021-03-03 21:22:35,406] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: save_to_minio_2.write_text_file 2021-03-03T21:22:34.742022+00:00 [queued]>
+[2021-03-03 21:22:35,417] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: save_to_minio_2.write_text_file 2021-03-03T21:22:34.742022+00:00 [queued]>
+[2021-03-03 21:22:35,418] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-03 21:22:35,418] {taskinstance.py:1043} INFO - Starting attempt 1 of 1
+[2021-03-03 21:22:35,418] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-03 21:22:35,424] {taskinstance.py:1063} INFO - Executing <Task(_PythonDecoratedOperator): write_text_file> on 2021-03-03T21:22:34.742022+00:00
+[2021-03-03 21:22:35,427] {standard_task_runner.py:52} INFO - Started process 60 to run task
+[2021-03-03 21:22:35,430] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'save_to_minio_2', 'write_text_file', '2021-03-03T21:22:34.742022+00:00', '--job-id', '64', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/save_to_mino_2/main.py', '--cfg-path', '/tmp/tmpf0bcnz8i', '--error-file', '/tmp/tmp5vech7z_']
+[2021-03-03 21:22:35,430] {standard_task_runner.py:77} INFO - Job 64: Subtask write_text_file
+[2021-03-03 21:22:35,457] {logging_mixin.py:104} INFO - Running <TaskInstance: save_to_minio_2.write_text_file 2021-03-03T21:22:34.742022+00:00 [running]> on host 4c61e128b408
+[2021-03-03 21:22:35,489] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=iotoi
+AIRFLOW_CTX_DAG_ID=save_to_minio_2
+AIRFLOW_CTX_TASK_ID=write_text_file
+AIRFLOW_CTX_EXECUTION_DATE=2021-03-03T21:22:34.742022+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-03-03T21:22:34.742022+00:00
+[2021-03-03 21:22:35,490] {base_aws.py:362} INFO - Airflow Connection: aws_conn_id=local_minio
+[2021-03-03 21:22:35,495] {base_aws.py:164} INFO - Credentials retrieved from extra_config
+[2021-03-03 21:22:35,495] {base_aws.py:81} INFO - Creating session with aws_access_key_id=minio-access-key region_name=None
+[2021-03-03 21:22:35,505] {base_aws.py:151} INFO - role_arn is None
+[2021-03-03 21:22:35,560] {taskinstance.py:1166} INFO - Marking task as SUCCESS. dag_id=save_to_minio_2, task_id=write_text_file, execution_date=20210303T212234, start_date=20210303T212235, end_date=20210303T212235
+[2021-03-03 21:22:35,576] {taskinstance.py:1220} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2021-03-03 21:22:35,602] {local_task_job.py:146} INFO - Task exited with return code 0

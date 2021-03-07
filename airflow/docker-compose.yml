@@ -36,7 +36,7 @@
 #
 # Feel free to modify this file to suit your needs.
 ---
-version: "3"
+version: "3.7"
 x-airflow-common: &airflow-common
   image: ${AIRFLOW_IMAGE_NAME:-apache/airflow:2.0.1}
   environment: &airflow-common-env
@@ -47,16 +47,17 @@ x-airflow-common: &airflow-common
     AIRFLOW__CORE__FERNET_KEY: ""
     AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION: "true"
     AIRFLOW__CORE__LOAD_EXAMPLES: "true"
+    SENDGRID_MAIL_FROM: "lukas.kellerstein@kompitech.com"
+    SENDGRID_API_KEY: "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"
   volumes:
     - ./container-data/dags:/opt/airflow/dags
     - ./container-data/logs:/opt/airflow/logs
     - ./container-data/plugins:/opt/airflow/plugins
+    - ./container-data/airflow.cfg:/opt/airflow/airflow.cfg
   user: "${AIRFLOW_UID:-50000}:${AIRFLOW_GID:-50000}"
   depends_on:
-    redis:
-      condition: service_healthy
-    postgres:
-      condition: service_healthy
+    - redis
+    - postgres
 
 services:
   postgres:
@@ -66,7 +67,7 @@ services:
       POSTGRES_PASSWORD: airflow
       POSTGRES_DB: airflow
     volumes:
-      - postgres-db-volume:/var/lib/postgresql/data
+      - ./container-data/postgres:/var/lib/postgresql/data
     healthcheck:
       test: ["CMD", "pg_isready", "-U", "airflow"]
       interval: 5s
@@ -127,6 +128,3 @@ services:
       timeout: 10s
       retries: 5
     restart: always
-
-volumes:
-  postgres-db-volume:

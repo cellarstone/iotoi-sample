@@ -1,0 +1,27 @@
+[2021-03-03 22:33:52,596] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: save_to_minio.generate_and_upload_to_s3 2021-03-03T22:33:52.176724+00:00 [queued]>
+[2021-03-03 22:33:52,607] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: save_to_minio.generate_and_upload_to_s3 2021-03-03T22:33:52.176724+00:00 [queued]>
+[2021-03-03 22:33:52,607] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-03 22:33:52,607] {taskinstance.py:1043} INFO - Starting attempt 1 of 2
+[2021-03-03 22:33:52,607] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-03 22:33:52,614] {taskinstance.py:1063} INFO - Executing <Task(PythonOperator): generate_and_upload_to_s3> on 2021-03-03T22:33:52.176724+00:00
+[2021-03-03 22:33:52,617] {standard_task_runner.py:52} INFO - Started process 48 to run task
+[2021-03-03 22:33:52,620] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'save_to_minio', 'generate_and_upload_to_s3', '2021-03-03T22:33:52.176724+00:00', '--job-id', '79', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/save_to_minio/main.py', '--cfg-path', '/tmp/tmp1rpet1yd', '--error-file', '/tmp/tmp9x18rh_j']
+[2021-03-03 22:33:52,620] {standard_task_runner.py:77} INFO - Job 79: Subtask generate_and_upload_to_s3
+[2021-03-03 22:33:52,645] {logging_mixin.py:104} INFO - Running <TaskInstance: save_to_minio.generate_and_upload_to_s3 2021-03-03T22:33:52.176724+00:00 [running]> on host b5d0ebb2b610
+[2021-03-03 22:33:52,673] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=airflow@example.com
+AIRFLOW_CTX_DAG_OWNER=iotoi
+AIRFLOW_CTX_DAG_ID=save_to_minio
+AIRFLOW_CTX_TASK_ID=generate_and_upload_to_s3
+AIRFLOW_CTX_EXECUTION_DATE=2021-03-03T22:33:52.176724+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-03-03T22:33:52.176724+00:00
+[2021-03-03 22:33:52,674] {base_aws.py:362} INFO - Airflow Connection: aws_conn_id=local_minio
+[2021-03-03 22:33:52,680] {base_aws.py:164} INFO - Credentials retrieved from extra_config
+[2021-03-03 22:33:52,680] {base_aws.py:81} INFO - Creating session with aws_access_key_id=minio-access-key region_name=None
+[2021-03-03 22:33:52,690] {base_aws.py:151} INFO - role_arn is None
+[2021-03-03 22:33:52,734] {python.py:118} INFO - Done. Returned value was: None
+[2021-03-03 22:33:52,741] {taskinstance.py:1166} INFO - Marking task as SUCCESS. dag_id=save_to_minio, task_id=generate_and_upload_to_s3, execution_date=20210303T223352, start_date=20210303T223352, end_date=20210303T223352
+[2021-03-03 22:33:52,758] {taskinstance.py:1220} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2021-03-03 22:33:52,793] {local_task_job.py:146} INFO - Task exited with return code 0

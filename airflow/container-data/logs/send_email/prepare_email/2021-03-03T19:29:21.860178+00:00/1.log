@@ -1,0 +1,21 @@
+[2021-03-03 19:29:24,624] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: send_email.prepare_email 2021-03-03T19:29:21.860178+00:00 [queued]>
+[2021-03-03 19:29:24,634] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: send_email.prepare_email 2021-03-03T19:29:21.860178+00:00 [queued]>
+[2021-03-03 19:29:24,634] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-03 19:29:24,634] {taskinstance.py:1043} INFO - Starting attempt 1 of 1
+[2021-03-03 19:29:24,634] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-03 19:29:24,639] {taskinstance.py:1063} INFO - Executing <Task(_PythonDecoratedOperator): prepare_email> on 2021-03-03T19:29:21.860178+00:00
+[2021-03-03 19:29:24,642] {standard_task_runner.py:52} INFO - Started process 48 to run task
+[2021-03-03 19:29:24,644] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'send_email', 'prepare_email', '2021-03-03T19:29:21.860178+00:00', '--job-id', '30', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/send_email.py', '--cfg-path', '/tmp/tmpoulwyaaq', '--error-file', '/tmp/tmp5r38eo9d']
+[2021-03-03 19:29:24,645] {standard_task_runner.py:77} INFO - Job 30: Subtask prepare_email
+[2021-03-03 19:29:24,668] {logging_mixin.py:104} INFO - Running <TaskInstance: send_email.prepare_email 2021-03-03T19:29:21.860178+00:00 [running]> on host 4c61e128b408
+[2021-03-03 19:29:24,694] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=iotoi
+AIRFLOW_CTX_DAG_ID=send_email
+AIRFLOW_CTX_TASK_ID=prepare_email
+AIRFLOW_CTX_EXECUTION_DATE=2021-03-03T19:29:21.860178+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-03-03T19:29:21.860178+00:00
+[2021-03-03 19:29:24,720] {taskinstance.py:1166} INFO - Marking task as SUCCESS. dag_id=send_email, task_id=prepare_email, execution_date=20210303T192921, start_date=20210303T192924, end_date=20210303T192924
+[2021-03-03 19:29:24,736] {taskinstance.py:1220} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-03-03 19:29:24,777] {local_task_job.py:146} INFO - Task exited with return code 0

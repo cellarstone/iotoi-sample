@@ -1,0 +1,22 @@
+[2021-03-07 13:07:31,784] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: check_minio_2.log 2021-03-07T13:07:29.426536+00:00 [queued]>
+[2021-03-07 13:07:31,796] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: check_minio_2.log 2021-03-07T13:07:29.426536+00:00 [queued]>
+[2021-03-07 13:07:31,796] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-07 13:07:31,796] {taskinstance.py:1043} INFO - Starting attempt 1 of 1
+[2021-03-07 13:07:31,796] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-07 13:07:31,808] {taskinstance.py:1063} INFO - Executing <Task(_PythonDecoratedOperator): log> on 2021-03-07T13:07:29.426536+00:00
+[2021-03-07 13:07:31,811] {standard_task_runner.py:52} INFO - Started process 53 to run task
+[2021-03-07 13:07:31,814] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'check_minio_2', 'log', '2021-03-07T13:07:29.426536+00:00', '--job-id', '115', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/check_minio_2/main.py', '--cfg-path', '/tmp/tmpa2zqeotu', '--error-file', '/tmp/tmpns1jxbsl']
+[2021-03-07 13:07:31,814] {standard_task_runner.py:77} INFO - Job 115: Subtask log
+[2021-03-07 13:07:31,845] {logging_mixin.py:104} INFO - Running <TaskInstance: check_minio_2.log 2021-03-07T13:07:29.426536+00:00 [running]> on host ded171213b30
+[2021-03-07 13:07:31,873] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=iotoi
+AIRFLOW_CTX_DAG_ID=check_minio_2
+AIRFLOW_CTX_TASK_ID=log
+AIRFLOW_CTX_EXECUTION_DATE=2021-03-07T13:07:29.426536+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-03-07T13:07:29.426536+00:00
+[2021-03-07 13:07:31,874] {logging_mixin.py:104} INFO - Something happened in bucket
+[2021-03-07 13:07:31,882] {taskinstance.py:1166} INFO - Marking task as SUCCESS. dag_id=check_minio_2, task_id=log, execution_date=20210307T130729, start_date=20210307T130731, end_date=20210307T130731
+[2021-03-07 13:07:31,902] {taskinstance.py:1220} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2021-03-07 13:07:31,947] {local_task_job.py:146} INFO - Task exited with return code 0

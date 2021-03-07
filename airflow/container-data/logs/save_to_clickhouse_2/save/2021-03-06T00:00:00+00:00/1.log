@@ -1,0 +1,60 @@
+[2021-03-07 18:22:26,960] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: save_to_clickhouse_2.save 2021-03-06T00:00:00+00:00 [queued]>
+[2021-03-07 18:22:26,970] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: save_to_clickhouse_2.save 2021-03-06T00:00:00+00:00 [queued]>
+[2021-03-07 18:22:26,970] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-07 18:22:26,970] {taskinstance.py:1043} INFO - Starting attempt 1 of 1
+[2021-03-07 18:22:26,970] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-07 18:22:26,976] {taskinstance.py:1063} INFO - Executing <Task(_PythonDecoratedOperator): save> on 2021-03-06T00:00:00+00:00
+[2021-03-07 18:22:26,979] {standard_task_runner.py:52} INFO - Started process 46 to run task
+[2021-03-07 18:22:26,981] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'save_to_clickhouse_2', 'save', '2021-03-06T00:00:00+00:00', '--job-id', '126', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/save_to_clickhouse_2/main.py', '--cfg-path', '/tmp/tmp12wmc7k_', '--error-file', '/tmp/tmpg915pt0u']
+[2021-03-07 18:22:26,981] {standard_task_runner.py:77} INFO - Job 126: Subtask save
+[2021-03-07 18:22:27,008] {logging_mixin.py:104} INFO - Running <TaskInstance: save_to_clickhouse_2.save 2021-03-06T00:00:00+00:00 [running]> on host 020f66ce59e6
+[2021-03-07 18:22:27,035] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=iotoi
+AIRFLOW_CTX_DAG_ID=save_to_clickhouse_2
+AIRFLOW_CTX_TASK_ID=save
+AIRFLOW_CTX_EXECUTION_DATE=2021-03-06T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-03-06T00:00:00+00:00
+[2021-03-07 18:27:27,134] {connection.py:265} WARNING - Failed to connect to 192.168.0.9:8123
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/clickhouse_driver/connection.py", line 260, in connect
+    return self._init_connection(host, port)
+  File "/home/airflow/.local/lib/python3.6/site-packages/clickhouse_driver/connection.py", line 238, in _init_connection
+    self.receive_hello()
+  File "/home/airflow/.local/lib/python3.6/site-packages/clickhouse_driver/connection.py", line 333, in receive_hello
+    packet_type = read_varint(self.fin)
+  File "clickhouse_driver/varint.pyx", line 38, in clickhouse_driver.varint.read_varint
+  File "clickhouse_driver/bufferedreader.pyx", line 55, in clickhouse_driver.bufferedreader.BufferedReader.read_one
+  File "clickhouse_driver/bufferedreader.pyx", line 188, in clickhouse_driver.bufferedreader.BufferedSocketReader.read_into_buffer
+socket.timeout: timed out
+[2021-03-07 18:27:27,135] {taskinstance.py:1455} ERROR - Code: 209. (192.168.0.9:8123)
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/clickhouse_driver/dbapi/cursor.py", line 106, in execute
+    **execute_kwargs
+  File "/home/airflow/.local/lib/python3.6/site-packages/clickhouse_driver/client.py", line 205, in execute
+    self.connection.force_connect()
+  File "/home/airflow/.local/lib/python3.6/site-packages/clickhouse_driver/connection.py", line 180, in force_connect
+    self.connect()
+  File "/home/airflow/.local/lib/python3.6/site-packages/clickhouse_driver/connection.py", line 279, in connect
+    raise err
+clickhouse_driver.errors.SocketTimeoutError: Code: 209. (192.168.0.9:8123)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1112, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1285, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1315, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 233, in execute
+    return_value = self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/save_to_clickhouse_2/main.py", line 37, in save
+    """
+  File "/home/airflow/.local/lib/python3.6/site-packages/clickhouse_driver/dbapi/cursor.py", line 110, in execute
+    raise OperationalError(orig)
+clickhouse_driver.dbapi.errors.OperationalError: Code: 209. (192.168.0.9:8123)
+[2021-03-07 18:27:27,138] {taskinstance.py:1503} INFO - Marking task as FAILED. dag_id=save_to_clickhouse_2, task_id=save, execution_date=20210306T000000, start_date=20210307T182226, end_date=20210307T182727
+[2021-03-07 18:27:27,197] {local_task_job.py:146} INFO - Task exited with return code 1

@@ -1,0 +1,51 @@
+[2021-03-03 18:31:55,677] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: send_email.send_email 2021-03-03T18:31:52.264724+00:00 [queued]>
+[2021-03-03 18:31:55,686] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: send_email.send_email 2021-03-03T18:31:52.264724+00:00 [queued]>
+[2021-03-03 18:31:55,686] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-03 18:31:55,686] {taskinstance.py:1043} INFO - Starting attempt 1 of 1
+[2021-03-03 18:31:55,686] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-03 18:31:55,691] {taskinstance.py:1063} INFO - Executing <Task(EmailOperator): send_email> on 2021-03-03T18:31:52.264724+00:00
+[2021-03-03 18:31:55,694] {standard_task_runner.py:52} INFO - Started process 53 to run task
+[2021-03-03 18:31:55,696] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'send_email', 'send_email', '2021-03-03T18:31:52.264724+00:00', '--job-id', '22', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/send_email.py', '--cfg-path', '/tmp/tmp1cl6hi46', '--error-file', '/tmp/tmpyeac3_5v']
+[2021-03-03 18:31:55,697] {standard_task_runner.py:77} INFO - Job 22: Subtask send_email
+[2021-03-03 18:31:55,720] {logging_mixin.py:104} INFO - Running <TaskInstance: send_email.send_email 2021-03-03T18:31:52.264724+00:00 [running]> on host 02b058bbf526
+[2021-03-03 18:31:55,754] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=iotoi
+AIRFLOW_CTX_DAG_ID=send_email
+AIRFLOW_CTX_TASK_ID=send_email
+AIRFLOW_CTX_EXECUTION_DATE=2021-03-03T18:31:52.264724+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-03-03T18:31:52.264724+00:00
+[2021-03-03 18:31:55,755] {configuration.py:356} WARNING - section/key [smtp/smtp_user] not found in config
+[2021-03-03 18:31:55,755] {email.py:184} INFO - Email alerting: attempt 1
+[2021-03-03 18:31:55,755] {taskinstance.py:1455} ERROR - [Errno 99] Cannot assign requested address
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1112, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1285, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1315, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/email.py", line 87, in execute
+    mime_charset=self.mime_charset,
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/email.py", line 62, in send_email
+    **kwargs,
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/email.py", line 97, in send_email_smtp
+    send_mime_email(e_from=smtp_mail_from, e_to=recipients, mime_msg=msg, dryrun=dryrun)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/email.py", line 186, in send_mime_email
+    conn = _get_smtp_connection(smtp_host, smtp_port, smtp_timeout, smtp_ssl)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/email.py", line 220, in _get_smtp_connection
+    else smtplib.SMTP(host=host, port=port, timeout=timeout)
+  File "/usr/local/lib/python3.6/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/usr/local/lib/python3.6/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/usr/local/lib/python3.6/smtplib.py", line 307, in _get_socket
+    self.source_address)
+  File "/usr/local/lib/python3.6/socket.py", line 724, in create_connection
+    raise err
+  File "/usr/local/lib/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+OSError: [Errno 99] Cannot assign requested address
+[2021-03-03 18:31:55,756] {taskinstance.py:1503} INFO - Marking task as FAILED. dag_id=send_email, task_id=send_email, execution_date=20210303T183152, start_date=20210303T183155, end_date=20210303T183155
+[2021-03-03 18:31:55,789] {local_task_job.py:146} INFO - Task exited with return code 1

@@ -1,0 +1,59 @@
+[2021-03-07 18:38:38,211] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: save_to_clickhouse_2.save 2021-03-07T18:38:36.924086+00:00 [queued]>
+[2021-03-07 18:38:38,224] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: save_to_clickhouse_2.save 2021-03-07T18:38:36.924086+00:00 [queued]>
+[2021-03-07 18:38:38,225] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-07 18:38:38,225] {taskinstance.py:1043} INFO - Starting attempt 1 of 1
+[2021-03-07 18:38:38,225] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-07 18:38:38,232] {taskinstance.py:1063} INFO - Executing <Task(_PythonDecoratedOperator): save> on 2021-03-07T18:38:36.924086+00:00
+[2021-03-07 18:38:38,236] {standard_task_runner.py:52} INFO - Started process 48 to run task
+[2021-03-07 18:38:38,239] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'save_to_clickhouse_2', 'save', '2021-03-07T18:38:36.924086+00:00', '--job-id', '129', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/save_to_clickhouse_2/main.py', '--cfg-path', '/tmp/tmpy80e6r8p', '--error-file', '/tmp/tmps_o1fecj']
+[2021-03-07 18:38:38,239] {standard_task_runner.py:77} INFO - Job 129: Subtask save
+[2021-03-07 18:38:38,271] {logging_mixin.py:104} INFO - Running <TaskInstance: save_to_clickhouse_2.save 2021-03-07T18:38:36.924086+00:00 [running]> on host 020f66ce59e6
+[2021-03-07 18:38:38,301] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=iotoi
+AIRFLOW_CTX_DAG_ID=save_to_clickhouse_2
+AIRFLOW_CTX_TASK_ID=save
+AIRFLOW_CTX_EXECUTION_DATE=2021-03-07T18:38:36.924086+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-03-07T18:38:36.924086+00:00
+[2021-03-07 18:38:38,303] {connection.py:273} WARNING - Failed to connect to localhost:8123
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/clickhouse_driver/connection.py", line 260, in connect
+    return self._init_connection(host, port)
+  File "/home/airflow/.local/lib/python3.6/site-packages/clickhouse_driver/connection.py", line 226, in _init_connection
+    self.socket = self._create_socket(host, port)
+  File "/home/airflow/.local/lib/python3.6/site-packages/clickhouse_driver/connection.py", line 221, in _create_socket
+    raise err
+  File "/home/airflow/.local/lib/python3.6/site-packages/clickhouse_driver/connection.py", line 212, in _create_socket
+    sock.connect(sa)
+OSError: [Errno 99] Cannot assign requested address
+[2021-03-07 18:38:38,303] {taskinstance.py:1455} ERROR - Code: 210. Cannot assign requested address (localhost:8123)
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/clickhouse_driver/dbapi/cursor.py", line 106, in execute
+    **execute_kwargs
+  File "/home/airflow/.local/lib/python3.6/site-packages/clickhouse_driver/client.py", line 205, in execute
+    self.connection.force_connect()
+  File "/home/airflow/.local/lib/python3.6/site-packages/clickhouse_driver/connection.py", line 180, in force_connect
+    self.connect()
+  File "/home/airflow/.local/lib/python3.6/site-packages/clickhouse_driver/connection.py", line 279, in connect
+    raise err
+clickhouse_driver.errors.NetworkError: Code: 210. Cannot assign requested address (localhost:8123)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1112, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1285, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1315, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 233, in execute
+    return_value = self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/save_to_clickhouse_2/main.py", line 37, in save
+    """
+  File "/home/airflow/.local/lib/python3.6/site-packages/clickhouse_driver/dbapi/cursor.py", line 110, in execute
+    raise OperationalError(orig)
+clickhouse_driver.dbapi.errors.OperationalError: Code: 210. Cannot assign requested address (localhost:8123)
+[2021-03-07 18:38:38,305] {taskinstance.py:1503} INFO - Marking task as FAILED. dag_id=save_to_clickhouse_2, task_id=save, execution_date=20210307T183836, start_date=20210307T183838, end_date=20210307T183838
+[2021-03-07 18:38:38,331] {local_task_job.py:146} INFO - Task exited with return code 1

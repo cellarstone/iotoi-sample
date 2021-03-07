@@ -1,0 +1,65 @@
+[2021-03-03 22:41:00,460] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: save_to_minio_3.check_s3_for_file_in_s3 2021-03-03T22:40:59.446863+00:00 [queued]>
+[2021-03-03 22:41:00,469] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: save_to_minio_3.check_s3_for_file_in_s3 2021-03-03T22:40:59.446863+00:00 [queued]>
+[2021-03-03 22:41:00,469] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-03 22:41:00,469] {taskinstance.py:1043} INFO - Starting attempt 1 of 1
+[2021-03-03 22:41:00,469] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-03 22:41:00,478] {taskinstance.py:1063} INFO - Executing <Task(S3KeySensor): check_s3_for_file_in_s3> on 2021-03-03T22:40:59.446863+00:00
+[2021-03-03 22:41:00,484] {standard_task_runner.py:52} INFO - Started process 46 to run task
+[2021-03-03 22:41:00,488] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'save_to_minio_3', 'check_s3_for_file_in_s3', '2021-03-03T22:40:59.446863+00:00', '--job-id', '83', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/save_to_minio_3/main.py', '--cfg-path', '/tmp/tmp1hmyswqr', '--error-file', '/tmp/tmp2dkij7hg']
+[2021-03-03 22:41:00,488] {standard_task_runner.py:77} INFO - Job 83: Subtask check_s3_for_file_in_s3
+[2021-03-03 22:41:00,522] {logging_mixin.py:104} INFO - Running <TaskInstance: save_to_minio_3.check_s3_for_file_in_s3 2021-03-03T22:40:59.446863+00:00 [running]> on host b5d0ebb2b610
+[2021-03-03 22:41:00,556] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=save_to_minio_3
+AIRFLOW_CTX_TASK_ID=check_s3_for_file_in_s3
+AIRFLOW_CTX_EXECUTION_DATE=2021-03-03T22:40:59.446863+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-03-03T22:40:59.446863+00:00
+[2021-03-03 22:41:00,557] {s3_key.py:98} INFO - Poking for key : s3://my-first-bucket/my-test-file-*
+[2021-03-03 22:41:00,558] {base_aws.py:362} INFO - Airflow Connection: aws_conn_id=local_minio
+[2021-03-03 22:41:00,565] {base_aws.py:164} INFO - Credentials retrieved from extra_config
+[2021-03-03 22:41:00,565] {base_aws.py:81} INFO - Creating session with aws_access_key_id=minio-access-key region_name=None
+[2021-03-03 22:41:00,575] {base_aws.py:151} INFO - role_arn is None
+[2021-03-03 22:41:10,619] {s3_key.py:98} INFO - Poking for key : s3://my-first-bucket/my-test-file-*
+[2021-03-03 22:41:20,628] {s3_key.py:98} INFO - Poking for key : s3://my-first-bucket/my-test-file-*
+[2021-03-03 22:41:30,639] {s3_key.py:98} INFO - Poking for key : s3://my-first-bucket/my-test-file-*
+[2021-03-03 22:41:40,655] {s3_key.py:98} INFO - Poking for key : s3://my-first-bucket/my-test-file-*
+[2021-03-03 22:41:50,667] {s3_key.py:98} INFO - Poking for key : s3://my-first-bucket/my-test-file-*
+[2021-03-03 22:42:00,686] {s3_key.py:98} INFO - Poking for key : s3://my-first-bucket/my-test-file-*
+[2021-03-03 22:42:10,698] {s3_key.py:98} INFO - Poking for key : s3://my-first-bucket/my-test-file-*
+[2021-03-03 22:42:20,720] {s3_key.py:98} INFO - Poking for key : s3://my-first-bucket/my-test-file-*
+[2021-03-03 22:42:30,735] {s3_key.py:98} INFO - Poking for key : s3://my-first-bucket/my-test-file-*
+[2021-03-03 22:42:40,751] {s3_key.py:98} INFO - Poking for key : s3://my-first-bucket/my-test-file-*
+[2021-03-03 22:42:50,763] {s3_key.py:98} INFO - Poking for key : s3://my-first-bucket/my-test-file-*
+[2021-03-03 22:43:00,783] {s3_key.py:98} INFO - Poking for key : s3://my-first-bucket/my-test-file-*
+[2021-03-03 22:43:10,795] {s3_key.py:98} INFO - Poking for key : s3://my-first-bucket/my-test-file-*
+[2021-03-03 22:43:20,807] {s3_key.py:98} INFO - Poking for key : s3://my-first-bucket/my-test-file-*
+[2021-03-03 22:43:30,819] {s3_key.py:98} INFO - Poking for key : s3://my-first-bucket/my-test-file-*
+[2021-03-03 22:43:40,839] {s3_key.py:98} INFO - Poking for key : s3://my-first-bucket/my-test-file-*
+[2021-03-03 22:43:50,851] {s3_key.py:98} INFO - Poking for key : s3://my-first-bucket/my-test-file-*
+[2021-03-03 22:44:00,868] {s3_key.py:98} INFO - Poking for key : s3://my-first-bucket/my-test-file-*
+[2021-03-03 22:44:10,880] {s3_key.py:98} INFO - Poking for key : s3://my-first-bucket/my-test-file-*
+[2021-03-03 22:44:20,891] {s3_key.py:98} INFO - Poking for key : s3://my-first-bucket/my-test-file-*
+[2021-03-03 22:44:30,904] {s3_key.py:98} INFO - Poking for key : s3://my-first-bucket/my-test-file-*
+[2021-03-03 22:44:40,919] {s3_key.py:98} INFO - Poking for key : s3://my-first-bucket/my-test-file-*
+[2021-03-03 22:44:50,931] {s3_key.py:98} INFO - Poking for key : s3://my-first-bucket/my-test-file-*
+[2021-03-03 22:45:00,945] {s3_key.py:98} INFO - Poking for key : s3://my-first-bucket/my-test-file-*
+[2021-03-03 22:45:09,916] {local_task_job.py:77} ERROR - Received SIGTERM. Terminating subprocesses
+[2021-03-03 22:45:09,917] {process_utils.py:100} INFO - Sending Signals.SIGTERM to GPID 46
+[2021-03-03 22:45:09,917] {taskinstance.py:1239} ERROR - Received SIGTERM. Terminating subprocesses.
+[2021-03-03 22:45:09,927] {taskinstance.py:1455} ERROR - Task received SIGTERM signal
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1112, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1285, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1315, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/sensors/base.py", line 243, in execute
+    time.sleep(self._get_next_poke_interval(started_at, run_duration, try_number))
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1241, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+[2021-03-03 22:45:09,929] {taskinstance.py:1503} INFO - Marking task as FAILED. dag_id=save_to_minio_3, task_id=check_s3_for_file_in_s3, execution_date=20210303T224059, start_date=20210303T224100, end_date=20210303T224509
+[2021-03-03 22:45:09,977] {process_utils.py:66} INFO - Process psutil.Process(pid=46, status='terminated', exitcode=1, started='22:40:59') (46) terminated with exit code 1
