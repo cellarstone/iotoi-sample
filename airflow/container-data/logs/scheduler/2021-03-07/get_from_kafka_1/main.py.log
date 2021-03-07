@@ -310,3 +310,38 @@ IndentationError: expected an indented block
 [2021-03-07 20:23:10,928] {logging_mixin.py:104} INFO - [2021-03-07 20:23:10,928] {dag.py:1818} INFO - Sync 1 DAGs
 [2021-03-07 20:23:10,937] {logging_mixin.py:104} INFO - [2021-03-07 20:23:10,937] {dag.py:2273} INFO - Setting next_dagrun for get_from_kafka_1 to None
 [2021-03-07 20:23:10,944] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/get_from_kafka_1/main.py took 0.070 seconds
+[2021-03-07 20:23:41,190] {scheduler_job.py:182} INFO - Started process (PID=1478) to work on /opt/airflow/dags/get_from_kafka_1/main.py
+[2021-03-07 20:23:41,191] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/get_from_kafka_1/main.py for tasks to queue
+[2021-03-07 20:23:41,191] {logging_mixin.py:104} INFO - [2021-03-07 20:23:41,191] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/get_from_kafka_1/main.py
+[2021-03-07 20:23:41,231] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['get_from_kafka_1']) retrieved from /opt/airflow/dags/get_from_kafka_1/main.py
+[2021-03-07 20:23:41,244] {logging_mixin.py:104} INFO - [2021-03-07 20:23:41,244] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-07 20:23:41,254] {logging_mixin.py:104} INFO - [2021-03-07 20:23:41,254] {dag.py:2273} INFO - Setting next_dagrun for get_from_kafka_1 to None
+[2021-03-07 20:23:41,261] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/get_from_kafka_1/main.py took 0.073 seconds
+[2021-03-07 20:24:11,517] {scheduler_job.py:182} INFO - Started process (PID=1516) to work on /opt/airflow/dags/get_from_kafka_1/main.py
+[2021-03-07 20:24:11,518] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/get_from_kafka_1/main.py for tasks to queue
+[2021-03-07 20:24:11,518] {logging_mixin.py:104} INFO - [2021-03-07 20:24:11,518] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/get_from_kafka_1/main.py
+[2021-03-07 20:24:11,562] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['get_from_kafka_1']) retrieved from /opt/airflow/dags/get_from_kafka_1/main.py
+[2021-03-07 20:24:11,577] {logging_mixin.py:104} INFO - [2021-03-07 20:24:11,577] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-07 20:24:11,588] {logging_mixin.py:104} INFO - [2021-03-07 20:24:11,588] {dag.py:2273} INFO - Setting next_dagrun for get_from_kafka_1 to None
+[2021-03-07 20:24:11,595] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/get_from_kafka_1/main.py took 0.079 seconds
+[2021-03-07 20:24:41,811] {scheduler_job.py:182} INFO - Started process (PID=1554) to work on /opt/airflow/dags/get_from_kafka_1/main.py
+[2021-03-07 20:24:41,812] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/get_from_kafka_1/main.py for tasks to queue
+[2021-03-07 20:24:41,812] {logging_mixin.py:104} INFO - [2021-03-07 20:24:41,812] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/get_from_kafka_1/main.py
+[2021-03-07 20:24:41,853] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['get_from_kafka_1']) retrieved from /opt/airflow/dags/get_from_kafka_1/main.py
+[2021-03-07 20:24:41,866] {logging_mixin.py:104} INFO - [2021-03-07 20:24:41,866] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-07 20:24:41,877] {logging_mixin.py:104} INFO - [2021-03-07 20:24:41,877] {dag.py:2273} INFO - Setting next_dagrun for get_from_kafka_1 to None
+[2021-03-07 20:24:41,886] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/get_from_kafka_1/main.py took 0.076 seconds
+[2021-03-07 20:25:12,166] {scheduler_job.py:182} INFO - Started process (PID=1592) to work on /opt/airflow/dags/get_from_kafka_1/main.py
+[2021-03-07 20:25:12,167] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/get_from_kafka_1/main.py for tasks to queue
+[2021-03-07 20:25:12,167] {logging_mixin.py:104} INFO - [2021-03-07 20:25:12,167] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/get_from_kafka_1/main.py
+[2021-03-07 20:25:12,205] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['get_from_kafka_1']) retrieved from /opt/airflow/dags/get_from_kafka_1/main.py
+[2021-03-07 20:25:12,221] {logging_mixin.py:104} INFO - [2021-03-07 20:25:12,221] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-07 20:25:12,234] {logging_mixin.py:104} INFO - [2021-03-07 20:25:12,233] {dag.py:2273} INFO - Setting next_dagrun for get_from_kafka_1 to None
+[2021-03-07 20:25:12,242] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/get_from_kafka_1/main.py took 0.078 seconds
+[2021-03-07 20:25:42,519] {scheduler_job.py:182} INFO - Started process (PID=1630) to work on /opt/airflow/dags/get_from_kafka_1/main.py
+[2021-03-07 20:25:42,520] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/get_from_kafka_1/main.py for tasks to queue
+[2021-03-07 20:25:42,520] {logging_mixin.py:104} INFO - [2021-03-07 20:25:42,520] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/get_from_kafka_1/main.py
+[2021-03-07 20:25:42,559] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['get_from_kafka_1']) retrieved from /opt/airflow/dags/get_from_kafka_1/main.py
+[2021-03-07 20:25:42,572] {logging_mixin.py:104} INFO - [2021-03-07 20:25:42,572] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-07 20:25:42,582] {logging_mixin.py:104} INFO - [2021-03-07 20:25:42,582] {dag.py:2273} INFO - Setting next_dagrun for get_from_kafka_1 to None
+[2021-03-07 20:25:42,589] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/get_from_kafka_1/main.py took 0.071 seconds

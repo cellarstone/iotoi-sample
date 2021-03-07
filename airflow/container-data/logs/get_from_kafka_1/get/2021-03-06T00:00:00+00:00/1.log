@@ -1131,3 +1131,519 @@ AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-03-06T00:00:00+00:00
 [2021-03-07 20:23:38,115] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
 [2021-03-07 20:23:38,115] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
 [2021-03-07 20:23:38,115] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:23:39,325] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:23:39,325] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:23:39,325] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:23:39,325] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:23:40,483] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:23:40,483] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:23:40,483] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:23:40,484] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:23:41,691] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:23:41,691] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:23:41,691] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:23:41,691] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:23:42,798] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:23:42,798] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:23:42,798] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:23:42,798] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:23:44,008] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:23:44,009] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:23:44,009] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:23:44,009] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:23:45,019] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:23:45,020] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:23:45,020] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:23:45,020] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:23:45,876] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:23:45,877] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:23:45,877] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:23:45,877] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:23:46,936] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:23:46,936] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:23:46,937] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:23:46,937] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:23:48,095] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:23:48,095] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:23:48,096] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:23:48,096] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:23:49,103] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:23:49,103] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:23:49,103] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:23:49,103] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:23:50,109] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:23:50,110] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:23:50,110] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:23:50,110] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:23:50,966] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:23:50,966] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:23:50,966] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:23:50,967] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:23:51,823] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:23:51,823] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:23:51,823] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:23:51,823] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:23:52,881] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:23:52,881] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:23:52,881] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:23:52,881] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:23:53,736] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:23:53,736] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:23:53,736] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:23:53,737] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:23:54,692] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:23:54,693] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:23:54,693] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:23:54,693] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:23:55,649] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:23:55,649] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:23:55,649] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:23:55,649] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:23:56,756] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:23:56,757] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:23:56,757] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:23:56,757] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:23:57,663] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:23:57,663] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:23:57,663] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:23:57,663] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:23:58,770] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:23:58,770] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:23:58,771] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:23:58,771] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:23:59,877] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:23:59,877] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:23:59,878] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:23:59,878] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:24:00,834] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:24:00,834] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:24:00,834] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:24:00,834] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:24:01,743] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:24:01,743] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:24:01,744] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:24:01,744] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:24:02,704] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:24:02,704] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:24:02,704] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:24:02,705] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:24:03,818] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:24:03,819] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:24:03,819] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:24:03,819] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:24:05,033] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:24:05,033] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:24:05,034] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:24:05,034] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:24:06,196] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:24:06,197] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:24:06,197] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:24:06,197] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:24:07,209] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:24:07,210] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:24:07,210] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:24:07,210] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:24:08,119] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:24:08,119] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:24:08,119] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:24:08,119] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:24:09,030] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:24:09,031] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:24:09,031] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:24:09,032] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:24:09,942] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:24:09,943] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:24:09,943] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:24:09,943] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:24:10,803] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:24:10,804] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:24:10,804] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:24:10,804] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:24:12,014] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:24:12,014] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:24:12,014] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:24:12,014] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:24:12,871] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:24:12,871] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:24:12,871] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:24:12,872] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:24:14,035] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:24:14,035] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:24:14,035] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:24:14,036] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:24:15,097] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:24:15,098] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:24:15,098] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:24:15,098] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:24:16,008] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:24:16,008] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:24:16,008] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:24:16,008] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:24:16,918] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:24:16,919] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:24:16,919] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:24:16,919] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:24:17,980] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:24:17,981] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:24:17,981] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:24:17,982] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:24:19,092] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:24:19,092] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:24:19,092] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:24:19,092] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:24:20,153] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:24:20,153] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:24:20,153] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:24:20,153] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:24:21,264] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:24:21,264] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:24:21,265] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:24:21,265] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:24:22,223] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:24:22,223] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:24:22,223] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:24:22,223] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:24:23,282] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:24:23,283] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:24:23,283] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:24:23,283] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:24:24,394] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:24:24,395] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:24:24,395] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:24:24,395] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:24:25,504] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:24:25,505] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:24:25,505] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:24:25,505] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:24:26,415] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:24:26,415] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:24:26,415] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:24:26,416] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:24:27,573] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:24:27,574] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:24:27,574] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:24:27,574] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:24:28,630] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:24:28,630] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:24:28,630] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:24:28,630] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:24:29,536] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:24:29,536] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:24:29,536] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:24:29,536] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:24:30,592] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:24:30,592] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:24:30,592] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:24:30,592] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:24:31,500] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:24:31,501] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:24:31,501] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:24:31,502] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:24:32,662] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:24:32,662] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:24:32,662] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:24:32,662] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:24:33,673] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:24:33,673] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:24:33,674] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:24:33,674] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:24:34,733] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:24:34,733] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:24:34,734] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:24:34,734] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:24:35,794] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:24:35,795] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:24:35,795] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:24:35,796] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:24:36,907] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:24:36,907] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:24:36,908] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:24:36,908] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:24:37,867] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:24:37,868] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:24:37,868] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:24:37,868] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:24:38,776] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:24:38,777] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:24:38,777] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:24:38,777] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:24:39,736] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:24:39,736] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:24:39,736] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:24:39,736] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:24:40,793] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:24:40,793] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:24:40,793] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:24:40,793] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:24:41,904] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:24:41,904] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:24:41,904] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:24:41,904] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:24:42,759] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:24:42,760] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:24:42,760] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:24:42,760] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:24:43,669] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:24:43,669] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:24:43,670] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:24:43,670] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:24:44,682] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:24:44,682] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:24:44,682] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:24:44,682] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:24:45,593] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:24:45,593] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:24:45,594] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:24:45,594] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:24:46,454] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:24:46,454] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:24:46,454] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:24:46,455] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:24:47,415] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:24:47,416] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:24:47,416] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:24:47,416] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:24:48,326] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:24:48,327] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:24:48,327] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:24:48,327] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:24:49,286] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:24:49,286] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:24:49,287] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:24:49,287] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:24:50,298] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:24:50,299] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:24:50,299] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:24:50,299] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:24:51,362] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:24:51,362] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:24:51,362] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:24:51,362] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:24:52,524] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:24:52,524] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:24:52,524] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:24:52,525] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:24:53,485] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:24:53,485] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:24:53,485] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:24:53,486] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:24:54,548] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:24:54,548] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:24:54,549] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:24:54,549] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:24:55,510] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:24:55,511] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:24:55,512] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:24:55,512] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:24:56,574] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:24:56,574] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:24:56,574] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:24:56,575] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:24:57,534] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:24:57,534] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:24:57,534] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:24:57,534] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:24:58,490] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:24:58,490] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:24:58,490] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:24:58,490] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:24:59,647] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:24:59,647] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:24:59,647] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:24:59,647] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:25:00,753] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:25:00,753] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:25:00,753] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:25:00,753] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:25:01,609] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:25:01,609] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:25:01,609] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:25:01,610] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:25:02,620] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:25:02,620] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:25:02,620] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:25:02,620] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:25:03,833] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:25:03,833] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:25:03,833] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:25:03,833] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:25:04,945] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:25:04,946] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:25:04,946] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:25:04,946] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:25:05,805] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:25:05,805] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:25:05,805] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:25:05,806] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:25:06,918] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:25:06,919] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:25:06,919] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:25:06,919] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:25:07,881] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:25:07,881] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:25:07,882] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:25:07,882] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:25:08,842] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:25:08,843] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:25:08,843] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:25:08,843] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:25:09,803] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:25:09,803] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:25:09,803] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:25:09,804] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:25:10,662] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:25:10,663] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:25:10,663] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:25:10,663] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:25:11,724] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:25:11,725] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:25:11,725] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:25:11,725] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:25:12,885] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:25:12,885] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:25:12,885] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:25:12,885] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:25:13,995] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:25:13,996] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:25:13,996] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:25:13,996] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:25:15,107] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:25:15,107] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:25:15,107] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:25:15,108] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:25:16,220] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:25:16,220] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:25:16,220] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:25:16,220] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:25:17,383] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:25:17,384] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:25:17,384] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:25:17,384] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:25:18,243] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:25:18,244] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:25:18,244] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:25:18,244] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:25:19,405] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:25:19,406] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:25:19,406] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:25:19,406] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:25:20,367] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:25:20,367] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:25:20,367] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:25:20,368] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:25:21,329] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:25:21,329] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:25:21,329] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:25:21,329] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:25:22,189] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:25:22,189] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:25:22,190] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:25:22,190] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:25:23,300] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:25:23,300] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:25:23,301] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:25:23,301] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:25:24,361] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:25:24,362] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:25:24,362] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:25:24,362] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:25:25,271] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:25:25,271] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:25:25,271] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:25:25,271] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:25:26,130] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:25:26,131] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:25:26,131] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:25:26,132] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:25:27,042] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:25:27,043] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:25:27,043] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:25:27,044] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:25:27,953] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:25:27,953] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:25:27,953] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:25:27,953] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:25:28,959] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:25:28,959] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:25:28,959] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:25:28,959] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:25:30,116] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:25:30,117] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:25:30,117] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:25:30,117] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:25:31,072] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:25:31,073] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:25:31,073] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:25:31,073] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:25:32,229] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:25:32,230] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:25:32,230] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:25:32,230] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:25:33,189] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:25:33,189] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:25:33,189] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:25:33,189] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:25:34,199] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:25:34,199] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:25:34,200] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:25:34,200] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:25:35,261] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:25:35,261] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:25:35,261] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:25:35,261] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:25:36,372] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:25:36,373] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:25:36,373] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:25:36,373] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:25:37,333] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:25:37,333] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:25:37,334] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:25:37,334] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:25:38,192] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:25:38,193] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:25:38,193] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:25:38,193] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:25:39,252] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:25:39,252] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:25:39,252] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:25:39,252] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:25:40,414] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:25:40,415] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:25:40,415] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:25:40,416] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:25:41,629] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:25:41,630] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:25:41,630] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:25:41,631] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:25:42,641] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:25:42,641] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:25:42,641] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:25:42,641] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:25:43,647] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:25:43,647] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:25:43,648] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:25:43,648] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:25:44,709] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:25:44,710] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:25:44,710] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:25:44,711] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:25:45,570] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:25:45,571] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:25:45,571] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:25:45,571] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:25:46,631] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:25:46,632] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:25:46,632] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:25:46,632] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:25:47,744] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:25:47,744] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:25:47,745] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:25:47,745] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:25:48,805] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:25:48,806] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:25:48,806] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:25:48,806] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata
+[2021-03-07 20:25:49,715] {conn.py:381} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: connecting to 192.168.0.9:9092 [('192.168.0.9', 9092) IPv4]
+[2021-03-07 20:25:49,716] {conn.py:419} ERROR - Connect attempt to <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]> returned error 111. Disconnecting.
+[2021-03-07 20:25:49,716] {conn.py:919} INFO - <BrokerConnection node_id=1 host=192.168.0.9:9092 <connecting> [IPv4 ('192.168.0.9', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+[2021-03-07 20:25:49,716] {client_async.py:331} WARNING - Node 1 connection failed -- refreshing metadata

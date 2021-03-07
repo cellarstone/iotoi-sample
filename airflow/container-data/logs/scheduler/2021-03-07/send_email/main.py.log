@@ -7061,3 +7061,38 @@
 [2021-03-07 20:23:10,967] {logging_mixin.py:104} INFO - [2021-03-07 20:23:10,967] {dag.py:1818} INFO - Sync 1 DAGs
 [2021-03-07 20:23:10,975] {logging_mixin.py:104} INFO - [2021-03-07 20:23:10,975] {dag.py:2273} INFO - Setting next_dagrun for send_email to None
 [2021-03-07 20:23:10,982] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/send_email/main.py took 0.041 seconds
+[2021-03-07 20:23:41,250] {scheduler_job.py:182} INFO - Started process (PID=1480) to work on /opt/airflow/dags/send_email/main.py
+[2021-03-07 20:23:41,251] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/send_email/main.py for tasks to queue
+[2021-03-07 20:23:41,252] {logging_mixin.py:104} INFO - [2021-03-07 20:23:41,252] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/send_email/main.py
+[2021-03-07 20:23:41,262] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['send_email']) retrieved from /opt/airflow/dags/send_email/main.py
+[2021-03-07 20:23:41,276] {logging_mixin.py:104} INFO - [2021-03-07 20:23:41,276] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-07 20:23:41,284] {logging_mixin.py:104} INFO - [2021-03-07 20:23:41,284] {dag.py:2273} INFO - Setting next_dagrun for send_email to None
+[2021-03-07 20:23:41,291] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/send_email/main.py took 0.042 seconds
+[2021-03-07 20:24:11,592] {scheduler_job.py:182} INFO - Started process (PID=1518) to work on /opt/airflow/dags/send_email/main.py
+[2021-03-07 20:24:11,593] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/send_email/main.py for tasks to queue
+[2021-03-07 20:24:11,593] {logging_mixin.py:104} INFO - [2021-03-07 20:24:11,593] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/send_email/main.py
+[2021-03-07 20:24:11,602] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['send_email']) retrieved from /opt/airflow/dags/send_email/main.py
+[2021-03-07 20:24:11,616] {logging_mixin.py:104} INFO - [2021-03-07 20:24:11,616] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-07 20:24:11,625] {logging_mixin.py:104} INFO - [2021-03-07 20:24:11,625] {dag.py:2273} INFO - Setting next_dagrun for send_email to None
+[2021-03-07 20:24:11,632] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/send_email/main.py took 0.042 seconds
+[2021-03-07 20:24:41,877] {scheduler_job.py:182} INFO - Started process (PID=1556) to work on /opt/airflow/dags/send_email/main.py
+[2021-03-07 20:24:41,878] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/send_email/main.py for tasks to queue
+[2021-03-07 20:24:41,879] {logging_mixin.py:104} INFO - [2021-03-07 20:24:41,879] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/send_email/main.py
+[2021-03-07 20:24:41,888] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['send_email']) retrieved from /opt/airflow/dags/send_email/main.py
+[2021-03-07 20:24:41,930] {logging_mixin.py:104} INFO - [2021-03-07 20:24:41,929] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-07 20:24:41,941] {logging_mixin.py:104} INFO - [2021-03-07 20:24:41,940] {dag.py:2273} INFO - Setting next_dagrun for send_email to None
+[2021-03-07 20:24:41,948] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/send_email/main.py took 0.073 seconds
+[2021-03-07 20:25:12,237] {scheduler_job.py:182} INFO - Started process (PID=1594) to work on /opt/airflow/dags/send_email/main.py
+[2021-03-07 20:25:12,237] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/send_email/main.py for tasks to queue
+[2021-03-07 20:25:12,238] {logging_mixin.py:104} INFO - [2021-03-07 20:25:12,238] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/send_email/main.py
+[2021-03-07 20:25:12,249] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['send_email']) retrieved from /opt/airflow/dags/send_email/main.py
+[2021-03-07 20:25:12,265] {logging_mixin.py:104} INFO - [2021-03-07 20:25:12,264] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-07 20:25:12,274] {logging_mixin.py:104} INFO - [2021-03-07 20:25:12,274] {dag.py:2273} INFO - Setting next_dagrun for send_email to None
+[2021-03-07 20:25:12,281] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/send_email/main.py took 0.047 seconds
+[2021-03-07 20:25:42,593] {scheduler_job.py:182} INFO - Started process (PID=1632) to work on /opt/airflow/dags/send_email/main.py
+[2021-03-07 20:25:42,594] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/send_email/main.py for tasks to queue
+[2021-03-07 20:25:42,594] {logging_mixin.py:104} INFO - [2021-03-07 20:25:42,594] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/send_email/main.py
+[2021-03-07 20:25:42,603] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['send_email']) retrieved from /opt/airflow/dags/send_email/main.py
+[2021-03-07 20:25:42,617] {logging_mixin.py:104} INFO - [2021-03-07 20:25:42,617] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-07 20:25:42,626] {logging_mixin.py:104} INFO - [2021-03-07 20:25:42,626] {dag.py:2273} INFO - Setting next_dagrun for send_email to None
+[2021-03-07 20:25:42,633] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/send_email/main.py took 0.041 seconds

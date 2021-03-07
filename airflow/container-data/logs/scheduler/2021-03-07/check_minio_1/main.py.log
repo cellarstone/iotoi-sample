@@ -6514,3 +6514,38 @@ AttributeError: 'function' object has no attribute 'default_args'
 [2021-03-07 20:23:11,072] {logging_mixin.py:104} INFO - [2021-03-07 20:23:11,072] {dag.py:1818} INFO - Sync 1 DAGs
 [2021-03-07 20:23:11,084] {logging_mixin.py:104} INFO - [2021-03-07 20:23:11,084] {dag.py:2273} INFO - Setting next_dagrun for check_minio_1 to None
 [2021-03-07 20:23:11,090] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/check_minio_1/main.py took 0.094 seconds
+[2021-03-07 20:23:41,364] {scheduler_job.py:182} INFO - Started process (PID=1485) to work on /opt/airflow/dags/check_minio_1/main.py
+[2021-03-07 20:23:41,365] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/check_minio_1/main.py for tasks to queue
+[2021-03-07 20:23:41,365] {logging_mixin.py:104} INFO - [2021-03-07 20:23:41,365] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/check_minio_1/main.py
+[2021-03-07 20:23:41,424] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['check_minio_1']) retrieved from /opt/airflow/dags/check_minio_1/main.py
+[2021-03-07 20:23:41,435] {logging_mixin.py:104} INFO - [2021-03-07 20:23:41,435] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-07 20:23:41,444] {logging_mixin.py:104} INFO - [2021-03-07 20:23:41,444] {dag.py:2273} INFO - Setting next_dagrun for check_minio_1 to None
+[2021-03-07 20:23:41,450] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/check_minio_1/main.py took 0.088 seconds
+[2021-03-07 20:24:11,686] {scheduler_job.py:182} INFO - Started process (PID=1522) to work on /opt/airflow/dags/check_minio_1/main.py
+[2021-03-07 20:24:11,687] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/check_minio_1/main.py for tasks to queue
+[2021-03-07 20:24:11,687] {logging_mixin.py:104} INFO - [2021-03-07 20:24:11,687] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/check_minio_1/main.py
+[2021-03-07 20:24:11,746] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['check_minio_1']) retrieved from /opt/airflow/dags/check_minio_1/main.py
+[2021-03-07 20:24:11,758] {logging_mixin.py:104} INFO - [2021-03-07 20:24:11,758] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-07 20:24:11,767] {logging_mixin.py:104} INFO - [2021-03-07 20:24:11,767] {dag.py:2273} INFO - Setting next_dagrun for check_minio_1 to None
+[2021-03-07 20:24:11,772] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/check_minio_1/main.py took 0.087 seconds
+[2021-03-07 20:24:41,979] {scheduler_job.py:182} INFO - Started process (PID=1559) to work on /opt/airflow/dags/check_minio_1/main.py
+[2021-03-07 20:24:41,980] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/check_minio_1/main.py for tasks to queue
+[2021-03-07 20:24:41,981] {logging_mixin.py:104} INFO - [2021-03-07 20:24:41,980] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/check_minio_1/main.py
+[2021-03-07 20:24:42,039] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['check_minio_1']) retrieved from /opt/airflow/dags/check_minio_1/main.py
+[2021-03-07 20:24:42,051] {logging_mixin.py:104} INFO - [2021-03-07 20:24:42,051] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-07 20:24:42,061] {logging_mixin.py:104} INFO - [2021-03-07 20:24:42,060] {dag.py:2273} INFO - Setting next_dagrun for check_minio_1 to None
+[2021-03-07 20:24:42,066] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/check_minio_1/main.py took 0.089 seconds
+[2021-03-07 20:25:12,350] {scheduler_job.py:182} INFO - Started process (PID=1598) to work on /opt/airflow/dags/check_minio_1/main.py
+[2021-03-07 20:25:12,350] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/check_minio_1/main.py for tasks to queue
+[2021-03-07 20:25:12,351] {logging_mixin.py:104} INFO - [2021-03-07 20:25:12,351] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/check_minio_1/main.py
+[2021-03-07 20:25:12,409] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['check_minio_1']) retrieved from /opt/airflow/dags/check_minio_1/main.py
+[2021-03-07 20:25:12,420] {logging_mixin.py:104} INFO - [2021-03-07 20:25:12,420] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-07 20:25:12,429] {logging_mixin.py:104} INFO - [2021-03-07 20:25:12,429] {dag.py:2273} INFO - Setting next_dagrun for check_minio_1 to None
+[2021-03-07 20:25:12,434] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/check_minio_1/main.py took 0.086 seconds
+[2021-03-07 20:25:42,694] {scheduler_job.py:182} INFO - Started process (PID=1635) to work on /opt/airflow/dags/check_minio_1/main.py
+[2021-03-07 20:25:42,695] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/check_minio_1/main.py for tasks to queue
+[2021-03-07 20:25:42,695] {logging_mixin.py:104} INFO - [2021-03-07 20:25:42,695] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/check_minio_1/main.py
+[2021-03-07 20:25:42,754] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['check_minio_1']) retrieved from /opt/airflow/dags/check_minio_1/main.py
+[2021-03-07 20:25:42,766] {logging_mixin.py:104} INFO - [2021-03-07 20:25:42,766] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-07 20:25:42,776] {logging_mixin.py:104} INFO - [2021-03-07 20:25:42,776] {dag.py:2273} INFO - Setting next_dagrun for check_minio_1 to None
+[2021-03-07 20:25:42,781] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/check_minio_1/main.py took 0.089 seconds

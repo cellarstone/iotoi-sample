@@ -1808,3 +1808,38 @@ ModuleNotFoundError: No module named 'airflow.operators.clickhouse_operator'
 [2021-03-07 20:23:11,020] {logging_mixin.py:104} INFO - [2021-03-07 20:23:11,020] {dag.py:1818} INFO - Sync 1 DAGs
 [2021-03-07 20:23:11,029] {logging_mixin.py:104} INFO - [2021-03-07 20:23:11,029] {dag.py:2273} INFO - Setting next_dagrun for save_to_clickhouse_1 to None
 [2021-03-07 20:23:11,036] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/save_to_clickhouse_1/main.py took 0.045 seconds
+[2021-03-07 20:23:41,355] {scheduler_job.py:182} INFO - Started process (PID=1484) to work on /opt/airflow/dags/save_to_clickhouse_1/main.py
+[2021-03-07 20:23:41,356] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/save_to_clickhouse_1/main.py for tasks to queue
+[2021-03-07 20:23:41,356] {logging_mixin.py:104} INFO - [2021-03-07 20:23:41,356] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/save_to_clickhouse_1/main.py
+[2021-03-07 20:23:41,371] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['save_to_clickhouse_1']) retrieved from /opt/airflow/dags/save_to_clickhouse_1/main.py
+[2021-03-07 20:23:41,384] {logging_mixin.py:104} INFO - [2021-03-07 20:23:41,384] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-07 20:23:41,393] {logging_mixin.py:104} INFO - [2021-03-07 20:23:41,393] {dag.py:2273} INFO - Setting next_dagrun for save_to_clickhouse_1 to None
+[2021-03-07 20:23:41,400] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/save_to_clickhouse_1/main.py took 0.047 seconds
+[2021-03-07 20:24:11,650] {scheduler_job.py:182} INFO - Started process (PID=1521) to work on /opt/airflow/dags/save_to_clickhouse_1/main.py
+[2021-03-07 20:24:11,651] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/save_to_clickhouse_1/main.py for tasks to queue
+[2021-03-07 20:24:11,651] {logging_mixin.py:104} INFO - [2021-03-07 20:24:11,651] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/save_to_clickhouse_1/main.py
+[2021-03-07 20:24:11,666] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['save_to_clickhouse_1']) retrieved from /opt/airflow/dags/save_to_clickhouse_1/main.py
+[2021-03-07 20:24:11,679] {logging_mixin.py:104} INFO - [2021-03-07 20:24:11,679] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-07 20:24:11,688] {logging_mixin.py:104} INFO - [2021-03-07 20:24:11,688] {dag.py:2273} INFO - Setting next_dagrun for save_to_clickhouse_1 to None
+[2021-03-07 20:24:11,694] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/save_to_clickhouse_1/main.py took 0.046 seconds
+[2021-03-07 20:24:41,959] {scheduler_job.py:182} INFO - Started process (PID=1558) to work on /opt/airflow/dags/save_to_clickhouse_1/main.py
+[2021-03-07 20:24:41,959] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/save_to_clickhouse_1/main.py for tasks to queue
+[2021-03-07 20:24:41,960] {logging_mixin.py:104} INFO - [2021-03-07 20:24:41,960] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/save_to_clickhouse_1/main.py
+[2021-03-07 20:24:41,977] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['save_to_clickhouse_1']) retrieved from /opt/airflow/dags/save_to_clickhouse_1/main.py
+[2021-03-07 20:24:41,991] {logging_mixin.py:104} INFO - [2021-03-07 20:24:41,991] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-07 20:24:42,000] {logging_mixin.py:104} INFO - [2021-03-07 20:24:42,000] {dag.py:2273} INFO - Setting next_dagrun for save_to_clickhouse_1 to None
+[2021-03-07 20:24:42,006] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/save_to_clickhouse_1/main.py took 0.049 seconds
+[2021-03-07 20:25:12,292] {scheduler_job.py:182} INFO - Started process (PID=1596) to work on /opt/airflow/dags/save_to_clickhouse_1/main.py
+[2021-03-07 20:25:12,293] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/save_to_clickhouse_1/main.py for tasks to queue
+[2021-03-07 20:25:12,293] {logging_mixin.py:104} INFO - [2021-03-07 20:25:12,293] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/save_to_clickhouse_1/main.py
+[2021-03-07 20:25:12,309] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['save_to_clickhouse_1']) retrieved from /opt/airflow/dags/save_to_clickhouse_1/main.py
+[2021-03-07 20:25:12,323] {logging_mixin.py:104} INFO - [2021-03-07 20:25:12,323] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-07 20:25:12,332] {logging_mixin.py:104} INFO - [2021-03-07 20:25:12,332] {dag.py:2273} INFO - Setting next_dagrun for save_to_clickhouse_1 to None
+[2021-03-07 20:25:12,339] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/save_to_clickhouse_1/main.py took 0.049 seconds
+[2021-03-07 20:25:42,642] {scheduler_job.py:182} INFO - Started process (PID=1634) to work on /opt/airflow/dags/save_to_clickhouse_1/main.py
+[2021-03-07 20:25:42,643] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/save_to_clickhouse_1/main.py for tasks to queue
+[2021-03-07 20:25:42,643] {logging_mixin.py:104} INFO - [2021-03-07 20:25:42,643] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/save_to_clickhouse_1/main.py
+[2021-03-07 20:25:42,657] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['save_to_clickhouse_1']) retrieved from /opt/airflow/dags/save_to_clickhouse_1/main.py
+[2021-03-07 20:25:42,670] {logging_mixin.py:104} INFO - [2021-03-07 20:25:42,670] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-07 20:25:42,678] {logging_mixin.py:104} INFO - [2021-03-07 20:25:42,678] {dag.py:2273} INFO - Setting next_dagrun for save_to_clickhouse_1 to None
+[2021-03-07 20:25:42,685] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/save_to_clickhouse_1/main.py took 0.044 seconds

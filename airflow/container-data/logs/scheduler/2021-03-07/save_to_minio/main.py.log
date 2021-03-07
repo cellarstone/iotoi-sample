@@ -8038,3 +8038,43 @@
 [2021-03-07 20:23:10,819] {logging_mixin.py:104} INFO - [2021-03-07 20:23:10,819] {dag.py:1818} INFO - Sync 1 DAGs
 [2021-03-07 20:23:10,828] {logging_mixin.py:104} INFO - [2021-03-07 20:23:10,828] {dag.py:2273} INFO - Setting next_dagrun for save_to_minio to None
 [2021-03-07 20:23:10,833] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/save_to_minio/main.py took 0.126 seconds
+[2021-03-07 20:23:40,996] {scheduler_job.py:182} INFO - Started process (PID=1473) to work on /opt/airflow/dags/save_to_minio/main.py
+[2021-03-07 20:23:40,997] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/save_to_minio/main.py for tasks to queue
+[2021-03-07 20:23:40,998] {logging_mixin.py:104} INFO - [2021-03-07 20:23:40,998] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/save_to_minio/main.py
+[2021-03-07 20:23:41,096] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-07 20:23:41,099] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['save_to_minio']) retrieved from /opt/airflow/dags/save_to_minio/main.py
+[2021-03-07 20:23:41,112] {logging_mixin.py:104} INFO - [2021-03-07 20:23:41,112] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-07 20:23:41,123] {logging_mixin.py:104} INFO - [2021-03-07 20:23:41,123] {dag.py:2273} INFO - Setting next_dagrun for save_to_minio to None
+[2021-03-07 20:23:41,130] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/save_to_minio/main.py took 0.136 seconds
+[2021-03-07 20:24:11,345] {scheduler_job.py:182} INFO - Started process (PID=1511) to work on /opt/airflow/dags/save_to_minio/main.py
+[2021-03-07 20:24:11,346] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/save_to_minio/main.py for tasks to queue
+[2021-03-07 20:24:11,346] {logging_mixin.py:104} INFO - [2021-03-07 20:24:11,346] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/save_to_minio/main.py
+[2021-03-07 20:24:11,447] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-07 20:24:11,450] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['save_to_minio']) retrieved from /opt/airflow/dags/save_to_minio/main.py
+[2021-03-07 20:24:11,461] {logging_mixin.py:104} INFO - [2021-03-07 20:24:11,461] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-07 20:24:11,470] {logging_mixin.py:104} INFO - [2021-03-07 20:24:11,470] {dag.py:2273} INFO - Setting next_dagrun for save_to_minio to None
+[2021-03-07 20:24:11,476] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/save_to_minio/main.py took 0.134 seconds
+[2021-03-07 20:24:41,639] {scheduler_job.py:182} INFO - Started process (PID=1549) to work on /opt/airflow/dags/save_to_minio/main.py
+[2021-03-07 20:24:41,640] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/save_to_minio/main.py for tasks to queue
+[2021-03-07 20:24:41,641] {logging_mixin.py:104} INFO - [2021-03-07 20:24:41,641] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/save_to_minio/main.py
+[2021-03-07 20:24:41,738] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-07 20:24:41,741] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['save_to_minio']) retrieved from /opt/airflow/dags/save_to_minio/main.py
+[2021-03-07 20:24:41,754] {logging_mixin.py:104} INFO - [2021-03-07 20:24:41,754] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-07 20:24:41,763] {logging_mixin.py:104} INFO - [2021-03-07 20:24:41,763] {dag.py:2273} INFO - Setting next_dagrun for save_to_minio to None
+[2021-03-07 20:24:41,768] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/save_to_minio/main.py took 0.132 seconds
+[2021-03-07 20:25:11,975] {scheduler_job.py:182} INFO - Started process (PID=1587) to work on /opt/airflow/dags/save_to_minio/main.py
+[2021-03-07 20:25:11,976] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/save_to_minio/main.py for tasks to queue
+[2021-03-07 20:25:11,977] {logging_mixin.py:104} INFO - [2021-03-07 20:25:11,977] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/save_to_minio/main.py
+[2021-03-07 20:25:12,081] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-07 20:25:12,084] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['save_to_minio']) retrieved from /opt/airflow/dags/save_to_minio/main.py
+[2021-03-07 20:25:12,099] {logging_mixin.py:104} INFO - [2021-03-07 20:25:12,099] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-07 20:25:12,109] {logging_mixin.py:104} INFO - [2021-03-07 20:25:12,109] {dag.py:2273} INFO - Setting next_dagrun for save_to_minio to None
+[2021-03-07 20:25:12,116] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/save_to_minio/main.py took 0.143 seconds
+[2021-03-07 20:25:42,346] {scheduler_job.py:182} INFO - Started process (PID=1625) to work on /opt/airflow/dags/save_to_minio/main.py
+[2021-03-07 20:25:42,348] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/save_to_minio/main.py for tasks to queue
+[2021-03-07 20:25:42,349] {logging_mixin.py:104} INFO - [2021-03-07 20:25:42,349] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/save_to_minio/main.py
+[2021-03-07 20:25:42,448] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-03-07 20:25:42,450] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['save_to_minio']) retrieved from /opt/airflow/dags/save_to_minio/main.py
+[2021-03-07 20:25:42,462] {logging_mixin.py:104} INFO - [2021-03-07 20:25:42,462] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-07 20:25:42,472] {logging_mixin.py:104} INFO - [2021-03-07 20:25:42,472] {dag.py:2273} INFO - Setting next_dagrun for save_to_minio to None
+[2021-03-07 20:25:42,478] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/save_to_minio/main.py took 0.139 seconds
