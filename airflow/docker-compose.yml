@@ -51,7 +51,6 @@ x-airflow-common: &airflow-common
     SENDGRID_API_KEY: "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"
   volumes:
     - ./container-data/dags:/opt/airflow/dags
-    - ./container-data/logs:/opt/airflow/logs
     - ./container-data/plugins:/opt/airflow/plugins
     - ./container-data/airflow.cfg:/opt/airflow/airflow.cfg
   user: "${AIRFLOW_UID:-50000}:${AIRFLOW_GID:-50000}"
