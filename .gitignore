@@ -1,3 +1,6 @@
-./clickhouse/container-data/*
-./postgres/container-data/*
-./minio/container-data/*
+__pycache__
+
+airflow/container-data/logs
+clickhouse/container-data
+postgres/container-data
+minio/container-data
