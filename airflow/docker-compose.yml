@@ -49,8 +49,10 @@ x-airflow-common: &airflow-common
     AIRFLOW__CORE__LOAD_EXAMPLES: "true"
     SENDGRID_MAIL_FROM: "lukas.kellerstein@kompitech.com"
     SENDGRID_API_KEY: "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"
+    JAVA_HOME: /usr
   volumes:
     - ./container-data/dags:/opt/airflow/dags
+    - ./container-data/spark-scripts:/spark-scripts
     - ./container-data/plugins:/opt/airflow/plugins
     - ./container-data/airflow.cfg:/opt/airflow/airflow.cfg
   user: "${AIRFLOW_UID:-50000}:${AIRFLOW_GID:-50000}"
